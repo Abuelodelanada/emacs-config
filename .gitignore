@@ -1,8 +1,9 @@
 .*
-*/
+/*
 .emacs.d/eproject.lst
+.emacs.d/plugins/*
 !.gitignore
 !.emacs
 !.emacs.d/
-!.emacs.d/workgroups/
-!.emacs.d/themes/
+#!.emacs.d/workgroups/
+#!.emacs.d/themes/

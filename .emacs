@@ -1,5 +1,5 @@
 ;; MELPA config
-(add-to-list 'load-path "~/.emacs.d/plugins/package/")
+(add-to-list 'load-path "~/.emacs.d/")
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
