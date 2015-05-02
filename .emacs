@@ -7,7 +7,7 @@
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
-(packa
+
 ;; Load python for emacs collection
 ;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 
