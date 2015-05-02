@@ -1,5 +1,6 @@
 .*
 */
+.emacs.d/eproject.lst
 !.gitignore
 !.emacs
 !.emacs.d/
