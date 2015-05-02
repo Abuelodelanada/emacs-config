@@ -7,7 +7,7 @@
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
-
+(packa
 ;; Load python for emacs collection
 ;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 
@@ -30,6 +30,7 @@
 (setq inhibit-startup-message t) ;; Disable startup messages
 (tool-bar-mode -1) ;; Hide toolbar
 (scroll-bar-mode -1) ;; Hide scrollbar
+(global-auto-complete-mode t) ;; Enable auto-complete
 ;; (global-hl-line-mode +1) ;; Highlight current line
 ;; (set-face-background hl-line-face "magenta") ;; Background hl-line
 ;; (column-number-mode 1) ;; Show column number
@@ -58,7 +59,7 @@
 ;; (color-theme-charcoal-black)
 (color-theme-renegade)
 
-;; Parse these extensions as php
+;; Parse these extensions as PHP
 (add-to-list 'auto-mode-alist '("\\.module$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.install$" . php-mode))
