@@ -6,6 +6,6 @@
 .emacs.d/ac-comphist.dat
 !.gitignore
 !.emacs
-!.emacs.d/
+#!.emacs.d/
 #!.emacs.d/workgroups/
 #!.emacs.d/themes/
