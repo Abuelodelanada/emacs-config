@@ -55,7 +55,6 @@
 ;; Themes
 (load-file "~/.emacs.d/themes/atom-dark-theme.el")
 ;;(require 'color-theme)
-;; (color-theme-atom-dark)
 ;; (color-theme-initialize)
 ;; (color-theme-lawrence)
 ;; (color-theme-charcoal-black)
@@ -68,16 +67,4 @@
 (add-to-list 'auto-mode-alist '("\\.engine$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . php-mode))
 
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- )
-(custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- )
 (put 'dired-find-alternate-file 'disabled nil)
