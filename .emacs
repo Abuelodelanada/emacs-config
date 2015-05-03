@@ -52,14 +52,12 @@
 ;; (shell "*shell*") ;; Run shell
 
 ;; Run multi-term
-(setq multi-term-program "/bin/bash")
-(add-hook 'emacs-startup-hook 'multi-term)
-
-;; (add-hook 'emacs-startup-hook
-;;   (lambda ()
-;;     ;; (kill-buffer "*scratch*")
-;;     (ansi-term "/bin/bash")
-;;   ))
+;; (setq multi-term-program "/bin/zsh")
+(add-hook 'emacs-startup-hook
+  (lambda ()
+    ;; (kill-buffer "*scratch*")
+    (multi-term)
+  ))
 
 ;; Themes
 (load-file "~/.emacs.d/themes/atom-dark-theme.el")
