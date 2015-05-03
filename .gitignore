@@ -3,9 +3,5 @@
 .emacs.d/eproject.lst
 .emacs.d/ac-comphist.dat
 .emacs.d/plugins/*
-.emacs.d/ac-comphist.dat
 !.gitignore
 !.emacs
-#!.emacs.d/
-#!.emacs.d/workgroups/
-#!.emacs.d/themes/
