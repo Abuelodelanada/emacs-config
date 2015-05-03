@@ -17,21 +17,17 @@
 (setq auto-save-default nil) ;; Stop creating auto #autosave# files
 (global-linum-mode 1) ;; Show line-number
 (setq linum-format "%d ") ;; Separating line numbers from text
-;; (set-face-foreground 'linum "blue") ;; Linum foreground color
 (setq inhibit-startup-message t) ;; Disable startup messages
 (tool-bar-mode -1) ;; Hide toolbar
 (scroll-bar-mode -1) ;; Hide scrollbar
 ;; (menu-bar-mode -1) ;; Hide menubar
 (global-auto-complete-mode t) ;; Enable auto-complete
-;; (global-hl-line-mode +1) ;; Highlight current line
-;; (set-face-background hl-line-face "magenta") ;; Background hl-line
-;; (column-number-mode 1) ;; Show column number
-;; (set-face-foreground 'minibuffer-prompt "red") ;; Minibuffer font color
-;; (set-face-attribute 'region nil :background "#ff0000") ;; Selected region background
-;; (cua-mode 1) ;; Use standard keys for undo cut copy paste
+(column-number-mode 1) ;; Show column number
+
+;; Maximize at startup
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;; Disable line numbers for certain modes
+;; Disable linum for certain modes
 (setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode))
 (defadvice linum-on (around linum-on-inhibit-for-modes)
     (unless (member major-mode linum-mode-inhibit-modes-list)
@@ -52,7 +48,7 @@
 ;; (shell "*shell*") ;; Run shell
 
 ;; Run multi-term
-;; (setq multi-term-program "/bin/zsh")
+;; (setq multi-term-program "/bin/zsh") ;; Select default shell
 (add-hook 'emacs-startup-hook
   (lambda ()
     ;; (kill-buffer "*scratch*")
@@ -74,4 +70,4 @@
 (add-to-list 'auto-mode-alist '("\\.engine$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . php-mode))
 
-(put 'dired-find-alternate-file 'disabled nil)
+;; (put 'dired-find-alternate-file 'disabled nil)
