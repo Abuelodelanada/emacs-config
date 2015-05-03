@@ -1,7 +1,5 @@
 .*
 /*
-.emacs.d/eproject.lst
-.emacs.d/ac-comphist.dat
-.emacs.d/plugins/*
 !.gitignore
 !.emacs
+!.emacs.d/*
