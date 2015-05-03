@@ -32,7 +32,7 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; Disable line numbers for certain modes
-(setq linum-mode-inhibit-modes-list '(shell-mode dired-mode))
+(setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode))
 (defadvice linum-on (around linum-on-inhibit-for-modes)
     (unless (member major-mode linum-mode-inhibit-modes-list)
       ad-do-it))
@@ -49,8 +49,17 @@
 (setq wg-prefix-key (kbd "C-c w"))
 (workgroups-mode 1)
 ;; (wg-load "~/.emacs.d/workgroups/group2")
+;; (shell "*shell*") ;; Run shell
 
-(shell "*shell*") ;; Run shell
+;; Run multi-term
+(setq multi-term-program "/bin/bash")
+(add-hook 'emacs-startup-hook 'multi-term)
+
+;; (add-hook 'emacs-startup-hook
+;;   (lambda ()
+;;     ;; (kill-buffer "*scratch*")
+;;     (ansi-term "/bin/bash")
+;;   ))
 
 ;; Themes
 (load-file "~/.emacs.d/themes/atom-dark-theme.el")
