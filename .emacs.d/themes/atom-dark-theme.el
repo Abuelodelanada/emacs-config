@@ -51,7 +51,7 @@
  '(minibuffer-prompt ((t (:foreground "#FF8000"))))
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch)))))
- '(region ((t (:background "grey70"))))
+ '(region ((t (:background "grey30"))))
  '(secondary-selection ((t (:background "#262626"))))
  '(shadow ((t (:foreground "#7c7c7c"))))
  '(tooltip ((t (:inherit variable-pitch :background "#fff" :foreground "#333"))))
