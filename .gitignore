@@ -2,4 +2,4 @@
 /*
 !.gitignore
 !.emacs
-!.emacs.d/
+#!.emacs.d
