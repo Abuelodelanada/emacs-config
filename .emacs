@@ -34,7 +34,7 @@
       ad-do-it))
 (ad-activate 'linum-on)
 
-;; Resize window
+;; Define resize window shortcut
 (global-set-key (kbd "M-<down>") 'enlarge-window)
 (global-set-key (kbd "M-<up>") 'shrink-window) 
 (global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
@@ -70,6 +70,7 @@
 (add-to-list 'auto-mode-alist '("\\.engine$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . php-mode))
 
+;; Duplicate current line function
 (defun duplicate-current-line ()
   (interactive)
   (beginning-of-line nil)
@@ -81,6 +82,7 @@
   (yank)
   (back-to-indentation))
 
+;; Define shortcut for duplicate-current-line function
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
 
 ;; (put 'dired-find-alternate-file 'disabled nil)
