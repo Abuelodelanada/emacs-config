@@ -70,6 +70,19 @@
 (add-to-list 'auto-mode-alist '("\\.engine$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . php-mode))
 
+(defun duplicate-current-line ()
+  (interactive)
+  (beginning-of-line nil)
+  (let ((b (point)))
+    (end-of-line nil)
+    (copy-region-as-kill b (point)))
+  (beginning-of-line 2)
+  (open-line 1)
+  (yank)
+  (back-to-indentation))
+
+(global-set-key (kbd "C-c d") 'duplicate-current-line)
+
 ;; (put 'dired-find-alternate-file 'disabled nil)
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
