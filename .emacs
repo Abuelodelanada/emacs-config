@@ -23,9 +23,8 @@
 ;; (menu-bar-mode -1) ;; Hide menubar
 (global-auto-complete-mode t) ;; Enable auto-complete
 (column-number-mode 1) ;; Show column number
-
-;; Maximize at startup
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+;; (put 'dired-find-alternate-file 'disabled nil)
+(add-to-list 'default-frame-alist '(fullscreen . maximized)) ;; Maximize window at startup
 
 ;; Disable linum for certain modes
 (setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode))
@@ -33,12 +32,6 @@
     (unless (member major-mode linum-mode-inhibit-modes-list)
       ad-do-it))
 (ad-activate 'linum-on)
-
-;; Define resize window shortcut
-(global-set-key (kbd "M-<down>") 'enlarge-window)
-(global-set-key (kbd "M-<up>") 'shrink-window) 
-(global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
-(global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
 
 ;; Workgroups
 (require 'workgroups)
@@ -70,6 +63,8 @@
 (add-to-list 'auto-mode-alist '("\\.engine$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . php-mode))
 
+;; Custom functions
+
 ;; Duplicate current line function
 (defun duplicate-current-line ()
   (interactive)
@@ -82,10 +77,16 @@
   (yank)
   (back-to-indentation))
 
+;; Custom keyboard shortcuts
+
+;; Define resize window shortcut
+(global-set-key (kbd "M-<down>") 'enlarge-window)
+(global-set-key (kbd "M-<up>") 'shrink-window) 
+(global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
 ;; Define shortcut for duplicate-current-line function
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
 
-;; (put 'dired-find-alternate-file 'disabled nil)
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
