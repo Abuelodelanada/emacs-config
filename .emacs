@@ -1,5 +1,6 @@
-;; MELPA packages
-(add-to-list 'load-path "~/.emacs.d/")
+;; Packages repository
+
+(add-to-list 'load-path "~/.emacs.d/libraries")
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
@@ -8,53 +9,26 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
 
-;; Python Emacs collection
-;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+;; Global configurations
 
-;; Some global configurations
+(setq inhibit-startup-message t) ;; Disable startup messages
+(add-to-list 'default-frame-alist '(fullscreen . maximized)) ;; Maximize window at startup
 (setq make-backup-files nil) ;; No backup files ~
-;; (setq backup-directory-alist `(("." . "~/.emacs-backup-files"))) ;; Copy backup files into dir
+;; (setq backup-directory-alist `(("." . "~/.emacs-backup-files"))) ;; Backup files directory
 (setq auto-save-default nil) ;; Stop creating auto #autosave# files
+;; (setq multi-term-program "/bin/zsh") ;; Set default shell
+
+;; Modes
+
 (global-linum-mode 1) ;; Show line-number
 (setq linum-format "%d ") ;; Separating line numbers from text
-(setq inhibit-startup-message t) ;; Disable startup messages
 (tool-bar-mode -1) ;; Hide toolbar
 (scroll-bar-mode -1) ;; Hide scrollbar
 ;; (menu-bar-mode -1) ;; Hide menubar
-(global-auto-complete-mode t) ;; Enable auto-complete
 (column-number-mode 1) ;; Show column number
-;; (put 'dired-find-alternate-file 'disabled nil)
-(add-to-list 'default-frame-alist '(fullscreen . maximized)) ;; Maximize window at startup
+(global-auto-complete-mode t) ;; Enable auto-complete
 
-;; Disable linum for certain modes
-(setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode))
-(defadvice linum-on (around linum-on-inhibit-for-modes)
-    (unless (member major-mode linum-mode-inhibit-modes-list)
-      ad-do-it))
-(ad-activate 'linum-on)
-
-;; Workgroups
-(require 'workgroups)
-(setq wg-prefix-key (kbd "C-c w"))
-(workgroups-mode 1)
-;; (wg-load "~/.emacs.d/workgroups/group2")
-;; (shell "*shell*") ;; Run shell
-
-;; Run multi-term
-;; (setq multi-term-program "/bin/zsh") ;; Select default shell
-(add-hook 'emacs-startup-hook
-  (lambda ()
-    ;; (kill-buffer "*scratch*")
-    (multi-term)
-  ))
-
-;; Themes
-(load-file "~/.emacs.d/themes/atom-dark-theme.el")
-;;(require 'color-theme)
-;; (color-theme-initialize)
-;; (color-theme-lawrence)
-;; (color-theme-charcoal-black)
-;; (color-theme-renegade)
+;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el") ;; Python Emacs collection
 
 ;; Parse these extensions as PHP
 (add-to-list 'auto-mode-alist '("\\.module$" . php-mode))
@@ -63,9 +37,47 @@
 (add-to-list 'auto-mode-alist '("\\.engine$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl.php$" . php-mode))
 
+;; Workgroups
+
+(require 'workgroups)
+(setq wg-prefix-key (kbd "C-c w"))
+(workgroups-mode 1)
+;; (wg-load "~/.emacs.d/workgroups/group2")
+;; (shell "*shell*") ;; Run shell
+
+;; Dired customization
+
+(require 'dired-sort-map)
+(setq dired-listing-switches "--group-directories-first -alh")
+;; (put 'dired-find-alternate-file 'disabled nil) ;; Reuse directory buffer
+
+;; Hooks
+
+(add-hook 'emacs-startup-hook
+  (lambda ()
+    ;; (kill-buffer "*scratch*")
+    (multi-term)
+  ))
+
+;; Themes
+
+(load-file "~/.emacs.d/themes/atom-dark-theme.el")
+;;(require 'color-theme)
+;; (color-theme-initialize)
+;; (color-theme-lawrence)
+;; (color-theme-charcoal-black)
+;; (color-theme-renegade)
+
+;; Custom keyboard shortcuts
+
+(global-set-key (kbd "M-<down>") 'enlarge-window)
+(global-set-key (kbd "M-<up>") 'shrink-window) 
+(global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
+(global-set-key (kbd "C-c d") 'duplicate-current-line)
+
 ;; Custom functions
 
-;; Duplicate current line function
 (defun duplicate-current-line ()
   (interactive)
   (beginning-of-line nil)
@@ -77,15 +89,12 @@
   (yank)
   (back-to-indentation))
 
-;; Custom keyboard shortcuts
-
-;; Define resize window shortcut
-(global-set-key (kbd "M-<down>") 'enlarge-window)
-(global-set-key (kbd "M-<up>") 'shrink-window) 
-(global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
-(global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
-;; Define shortcut for duplicate-current-line function
-(global-set-key (kbd "C-c d") 'duplicate-current-line)
+;; Disable linum for certain modes
+(setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode))
+(defadvice linum-on (around linum-on-inhibit-for-modes)
+    (unless (member major-mode linum-mode-inhibit-modes-list)
+      ad-do-it))
+(ad-activate 'linum-on)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
