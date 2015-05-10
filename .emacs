@@ -9,7 +9,7 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
 
-;; Global configurations
+;; Global settings
 
 (setq inhibit-startup-message t) ;; Disable startup messages
 (add-to-list 'default-frame-alist '(fullscreen . maximized)) ;; Maximize window at startup
@@ -49,20 +49,21 @@
 
 (require 'dired-sort-map)
 (setq dired-listing-switches "--group-directories-first -alh")
+
+(require 'dired-x)
+(setq dired-omit-files "^\\...+$")
+
 ;; (put 'dired-find-alternate-file 'disabled nil) ;; Reuse directory buffer
 
 ;; Hooks
 
-(add-hook 'emacs-startup-hook
-  (lambda ()
-    ;; (kill-buffer "*scratch*")
-    (multi-term)
-  ))
+(add-hook 'dired-mode-hook (lambda () (dired-omit-mode 1)))
+(add-hook 'emacs-startup-hook (lambda () (multi-term)))
 
 ;; Themes
 
 (load-file "~/.emacs.d/themes/atom-dark-theme.el")
-;;(require 'color-theme)
+;; (require 'color-theme)
 ;; (color-theme-initialize)
 ;; (color-theme-lawrence)
 ;; (color-theme-charcoal-black)
@@ -75,8 +76,54 @@
 (global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
+(global-set-key (kbd "C-c C-z") 'term-stop-subjob)
+(global-set-key (kbd "C-c C-w") 'copy-word)
 
-;; Custom functions
+;; Alias
+
+(defalias 'bkr 'browse-kill-ring)
+(defalias 'lb 'list-buffer)
+(defalias 'yes-or-no-p 'y-or-n-p)
+(defalias 'gf 'grep-find)
+(defalias 'fd 'find-dired)
+
+;; Functions
+
+(defun get-point (symbol &optional arg)
+  "get the point"
+  (funcall symbol arg)
+  (point)
+  )
+     
+(defun copy-thing (begin-of-thing end-of-thing &optional arg)
+  "copy thing between beg & end into kill ring"
+  (save-excursion
+    (let ((beg (get-point begin-of-thing 1))
+	  (end (get-point end-of-thing arg)))
+      (copy-region-as-kill beg end)))
+  )
+     
+(defun paste-to-mark(&optional arg)
+  "Paste things to mark, or to the prompt in shell-mode"
+  (let ((pasteMe 
+     	 (lambda()
+     	   (if (string= "shell-mode" major-mode)
+	       (progn (comint-next-prompt 25535) (yank))
+	     (progn (goto-char (mark)) (yank) )))))
+    (if arg
+	(if (= arg 1)
+	    nil
+	  (funcall pasteMe))
+      (funcall pasteMe))
+    ))
+
+(defun copy-word (&optional arg)
+  "Copy words at point into kill-ring"
+  (interactive "P")
+  (copy-thing 'backward-word 'forward-word arg)
+  (message "Copying word at point into kill-ring...")
+  ;; (Paste-to-mark arg)
+  )
 
 (defun duplicate-current-line ()
   (interactive)
@@ -90,7 +137,7 @@
   (back-to-indentation))
 
 ;; Disable linum for certain modes
-(setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode))
+(setq linum-mode-inhibit-modes-list '(shell-mode eshell-mode term-mode multi-term dired-mode doc-view-mode))
 (defadvice linum-on (around linum-on-inhibit-for-modes)
     (unless (member major-mode linum-mode-inhibit-modes-list)
       ad-do-it))
