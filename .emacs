@@ -27,6 +27,7 @@
 ;; (menu-bar-mode -1) ;; Hide menubar
 (column-number-mode 1) ;; Show column number
 (global-auto-complete-mode t) ;; Enable auto-complete
+(global-highlight-parentheses-mode t)
 
 ;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el") ;; Python Emacs collection
 
@@ -82,7 +83,7 @@
 ;; Alias
 
 (defalias 'bkr 'browse-kill-ring)
-(defalias 'lb 'list-buffer)
+(defalias 'lb 'list-buffers)
 (defalias 'yes-or-no-p 'y-or-n-p)
 (defalias 'gf 'grep-find)
 (defalias 'fd 'find-dired)
