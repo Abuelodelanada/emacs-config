@@ -39,7 +39,7 @@
  ;; Basic
  '(button ((t (:inherit (link)))))
  '(cursor ((((background light)) (:background "black")) (((background dark)) (:background "white"))))
- '(default ((t (:foreground "#c5c8c6" :background "#1d1f21" :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :stipple nil :inherit nil))))
+ '(default ((t (:foreground "#ffffff" :background "#1d1f21" :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :stipple nil :inherit nil))))
  '(escape-glyph ((t (:foreground "#FF8000"))))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(header-line ((t (:foreground "grey90" :background "grey20"))))
