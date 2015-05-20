@@ -59,11 +59,11 @@
 ;; Hooks
 
 (add-hook 'dired-mode-hook (lambda () (dired-omit-mode 1)))
-(add-hook 'emacs-startup-hook (lambda () (multi-term)))
+(add-hook 'emacs-startup-hook (lambda () (if window-system (multi-term))))
 
 ;; Themes
-
-(load-file "~/.emacs.d/themes/atom-dark-theme.el")
+(if window-system
+    (load-file "~/.emacs.d/themes/atom-dark-theme.el"))
 ;; (require 'color-theme)
 ;; (color-theme-initialize)
 ;; (color-theme-lawrence)
