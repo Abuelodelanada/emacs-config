@@ -63,12 +63,10 @@
 
 ;; Themes
 (if window-system
-    (load-file "~/.emacs.d/themes/atom-dark-theme.el"))
-;; (require 'color-theme)
-;; (color-theme-initialize)
-;; (color-theme-lawrence)
-;; (color-theme-charcoal-black)
-;; (color-theme-renegade)
+    (load-file "~/.emacs.d/themes/atom-dark-theme.el")
+  (require 'color-theme)
+  (color-theme-initialize)
+  (color-theme-lawrence))
 
 ;; Custom keyboard shortcuts
 
