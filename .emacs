@@ -85,6 +85,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 (defalias 'gf 'grep-find)
 (defalias 'fd 'find-dired)
+(defalias 'tt 'tramp-term)
 
 ;; Functions
 
@@ -141,6 +142,13 @@
     (unless (member major-mode linum-mode-inhibit-modes-list)
       ad-do-it))
 (ad-activate 'linum-on)
+
+(defun edit-current-file-as-root ()
+  "Edit the file that is associated with the current buffer as root"
+  (interactive)
+  (let ((filep (buffer-file-name)))
+    (if filep (find-file (concat "/sudo::" filep))
+      (message "Current buffer does not have an associated file."))))
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
