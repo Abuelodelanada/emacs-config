@@ -62,11 +62,11 @@
 (add-hook 'emacs-startup-hook (lambda () (if window-system (multi-term))))
 
 ;; Themes
-(if window-system
+;; (if window-system
     (load-file "~/.emacs.d/themes/atom-dark-theme.el")
-  (require 'color-theme)
-  (color-theme-initialize)
-  (color-theme-lawrence))
+  ;; (require 'color-theme)
+  ;; (color-theme-initialize)
+  ;; (color-theme-lawrence))
 
 ;; Custom keyboard shortcuts
 
