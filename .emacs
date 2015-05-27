@@ -32,7 +32,6 @@
 ;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el") ;; Python Emacs collection
 
 ;; Drupal .make and .info syntax highlighting 
-
 (require 'generic-x)
 (define-generic-mode 'drupal-make-syntax-mode
   '(";")
@@ -43,8 +42,38 @@
    nil
   "Drupal make syntax mode")
 
-;; Parse these extensions as PHP
+(define-generic-mode 'htaccess-mode
+      '(?#)
+      '(;; core
+        "AcceptPathInfo" "AccessFileName" "AddDefaultCharset" "AddOutputFilterByType"
+        "AllowEncodedSlashes" "AllowOverride" "AuthName" "AuthType"
+        "CGIMapExtension" "ContentDigest" "DefaultType" "DocumentRoot"
+        "EnableMMAP" "EnableSendfile" "ErrorDocument" "ErrorLog"
+        "FileETag" "ForceType" "HostnameLookups" "IdentityCheck"
+        "Include" "KeepAlive" "KeepAliveTimeout" "LimitInternalRecursion"
+        "LimitRequestBody" "LimitRequestFields" "LimitRequestFieldSize" "LimitRequestLine"
+        "LimitXMLRequestBody" "LogLevel" "MaxKeepAliveRequests" "NameVirtualHost"
+        "Options" "Require" "RLimitCPU" "RLimitMEM"
+        "RLimitNPROC" "Satisfy" "ScriptInterpreterSource" "ServerAdmin"
+        "ServerAlias" "ServerName" "ServerPath" "ServerRoot"
+        "ServerSignature" "ServerTokens" "SetHandler" "SetInputFilter"
+        "SetOutputFilter" "TimeOut" "UseCanonicalName"
+        ;; .htaccess tutorial
+        "AddHandler" "AuthUserFile" "AuthGroupFile"
+        ;; mod_rewrite
+        "RewriteBase" "RewriteCond" "RewriteEngine" "RewriteLock" "RewriteLog"
+        "RewriteLogLevel" "RewriteMap" "RewriteOptions" "RewriteRule"
+        ;; mod_alias
+        "Alias" "AliasMatch" "Redirect" "RedirectMatch" "RedirectPermanent"
+        "RedirectTemp" "ScriptAlias" "ScriptAliasMatch")
+      '(("%{\\([A-Z_]+\\)}" 1 font-lock-variable-name-face)
+        ("\\b[0-9][0-9][0-9]\\b" . font-lock-constant-face)
+        ("\\[.*\\]" . font-lock-type-face))
+      '(".htaccess\\'")
+      nil
+      "Generic mode for Apache .htaccess files.")
 
+;; Parse these extensions as PHP
 (add-to-list 'auto-mode-alist '("\\.module$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.install$" . php-mode))
@@ -74,6 +103,7 @@
 (add-hook 'emacs-startup-hook (lambda () (if window-system (multi-term))))
 
 ;; Themes
+
 ;; (if window-system
     (load-file "~/.emacs.d/themes/atom-dark-theme.el")
   ;; (require 'color-theme)
