@@ -31,7 +31,20 @@
 
 ;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el") ;; Python Emacs collection
 
+;; Drupal .make and .info syntax highlighting 
+
+(require 'generic-x)
+(define-generic-mode 'drupal-make-syntax-mode
+  '(";")
+  '("projects" "libraries" "dependencies" "api" "core" "name" "description")
+  '(("=" . 'font-lock-operator)
+    ("\\[\\(.*\\)\\]" . font-lock-type-face))
+  '("\\.make$" "\\.info$")
+   nil
+  "Drupal make syntax mode")
+
 ;; Parse these extensions as PHP
+
 (add-to-list 'auto-mode-alist '("\\.module$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.install$" . php-mode))
@@ -53,7 +66,6 @@
 
 (require 'dired-x)
 (setq dired-omit-files "^\\...+$")
-
 ;; (put 'dired-find-alternate-file 'disabled nil) ;; Reuse directory buffer
 
 ;; Hooks
