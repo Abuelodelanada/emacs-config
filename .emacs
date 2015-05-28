@@ -24,14 +24,14 @@
 (setq linum-format "%d ") ;; Separating line numbers from text
 (tool-bar-mode -1) ;; Hide toolbar
 (scroll-bar-mode -1) ;; Hide scrollbar
-;; (menu-bar-mode -1) ;; Hide menubar
+(menu-bar-mode -1) ;; Hide menubar
 (column-number-mode 1) ;; Show column number
 (global-auto-complete-mode t) ;; Enable auto-complete
 (global-highlight-parentheses-mode t)
+(fullscreen-mode 1)
 
 ;; (load-file "~/.emacs.d/emacs-for-python/epy-init.el") ;; Python Emacs collection
 
-;; Drupal .make and .info syntax highlighting 
 (require 'generic-x)
 (define-generic-mode 'drupal-make-syntax-mode
   '(";")
@@ -88,14 +88,14 @@
 ;; (wg-load "~/.emacs.d/workgroups/group2")
 ;; (shell "*shell*") ;; Run shell
 
-;; Dired customization
+;; Dired
 
 (require 'dired-sort-map)
 (setq dired-listing-switches "--group-directories-first -alh")
 
 (require 'dired-x)
 (setq dired-omit-files "^\\...+$")
-;; (put 'dired-find-alternate-file 'disabled nil) ;; Reuse directory buffer
+(put 'dired-find-alternate-file 'disabled nil) ;; Reuse directory buffer
 
 ;; Hooks
 
@@ -104,13 +104,10 @@
 
 ;; Themes
 
-;; (if window-system
-    (load-file "~/.emacs.d/themes/atom-dark-theme.el")
-  ;; (require 'color-theme)
-  ;; (color-theme-initialize)
-  ;; (color-theme-lawrence))
+(if window-system
+    (load-file "~/.emacs.d/themes/atom-dark-theme.el"))
 
-;; Custom keyboard shortcuts
+;; Shortcuts
 
 (global-set-key (kbd "M-<down>") 'enlarge-window)
 (global-set-key (kbd "M-<up>") 'shrink-window) 
@@ -119,6 +116,7 @@
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
 (global-set-key (kbd "C-c C-z") 'term-stop-subjob)
 (global-set-key (kbd "C-c C-w") 'copy-word)
+(global-set-key (kbd "<f12>") 'menu-bar-mode)
 
 ;; Alias
 
