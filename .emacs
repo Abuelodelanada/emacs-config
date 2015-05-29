@@ -104,8 +104,8 @@
 
 ;; Themes
 
-(if window-system
-    (load-file "~/.emacs.d/themes/atom-dark-theme.el"))
+;(if window-system
+;    (load-file "~/.emacs.d/themes/atom-dark-theme.el"))
 
 ;; Shortcuts
 
@@ -203,3 +203,75 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+
+
+;;;;;;;;;;;;;;;;; Customizaciones José  ;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Code:
+(set-default-font "Ubuntu Mono 11")
+
+;; Acentos
+(require 'iso-transl)
+
+; Goto-line short-cut key
+(global-set-key "\C-l" 'goto-line)
+
+; ctags
+(setq path-to-ctags "/usr/bin/ctags") ;; <- your ctags path here
+(defun crear-tags (dir-name)
+  "Create tags file."
+  (interactive "DDirectory: ")
+  (shell-command
+   (format "%s -f %s/TAGS -e -R --languages='php' --exclude='cache' %s" path-to-ctags dir-name (directory-file-name dir-name)))
+)
+
+; Case sensitive TAGS search
+(set-default 'case-fold-search nil)
+
+;; Create tags shortcut
+(global-set-key "\C-t" 'crear-tags)
+
+;; Ir al cierre-apertura de ([{
+(global-set-key "%" 'match-paren)
+
+;;; Comentar regiones marcadas (C-c c):
+(global-set-key (kbd "C-c c") 'comment-region)
+;;; Descomentar regiones marcadas (C-c u):
+(global-set-key (kbd "C-c u") 'uncomment-region)
+
+; Theme
+(load-theme 'monokai t)
+(add-to-list 'default-frame-alist '(background-color . "#000000"))
+
+;; keyboard scroll one line at a time
+(setq scroll-step 1) 
+
+;; Ir al cierre-apertura de ([{
+(global-set-key "%" 'match-paren)
+
+(defun match-paren (arg)
+  "Go to the matching paren if on a paren; otherwise insert %."
+  (interactive "p")
+  (cond ((looking-at "\\s\(") (forward-list 1) (backward-char 1))
+        ((looking-at "\\s\)") (forward-char 1) (backward-list 1))
+        (t (self-insert-command (or arg 1)))))
+
+;; Copiar línea
+(setq-default kill-read-only-ok t)
+(global-set-key "\C-c\C-k" 'copy-line)
+
+;; Yasnippet
+(add-to-list 'load-path
+             "~/.emacs.d/elpa/yasnippet-20150415.244/")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+
+(require 'dropdown-list)
+(setq yas-prompt-functions '(yas-dropdown-prompt
+                             yas-ido-prompt
+                             yas-completing-prompt))
+
+;;; Eliminar espacios en blanco al final de la linea automáticamente al guardar el archivo:
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'write-file-hooks 'delete-trailing-whitespace nil t)
