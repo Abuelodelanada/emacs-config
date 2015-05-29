@@ -3,6 +3,7 @@
 .emacs.d/ac-comphist.dat
 .emacs.d/elpa/archives/
 .emacs.d/tramp
+*.elc
 !.gitignore
 !.emacs
 !.emacs.d/
