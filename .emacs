@@ -110,7 +110,7 @@
 ;; Shortcuts
 
 (global-set-key (kbd "M-<down>") 'enlarge-window)
-(global-set-key (kbd "M-<up>") 'shrink-window) 
+(global-set-key (kbd "M-<up>") 'shrink-window)
 (global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
@@ -134,7 +134,7 @@
   (funcall symbol arg)
   (point)
   )
-     
+
 (defun copy-thing (begin-of-thing end-of-thing &optional arg)
   "copy thing between beg & end into kill ring"
   (save-excursion
@@ -142,10 +142,10 @@
 	  (end (get-point end-of-thing arg)))
       (copy-region-as-kill beg end)))
   )
-     
+
 (defun paste-to-mark(&optional arg)
   "Paste things to mark, or to the prompt in shell-mode"
-  (let ((pasteMe 
+  (let ((pasteMe
      	 (lambda()
      	   (if (string= "shell-mode" major-mode)
 	       (progn (comint-next-prompt 25535) (yank))
@@ -241,10 +241,10 @@
 
 ; Theme
 (load-theme 'monokai t)
-(add-to-list 'default-frame-alist '(background-color . "#000000"))
+;(add-to-list 'default-frame-alist '(background-color . "#000000"))
 
 ;; keyboard scroll one line at a time
-(setq scroll-step 1) 
+(setq scroll-step 1)
 
 ;; Ir al cierre-apertura de ([{
 (global-set-key "%" 'match-paren)
@@ -275,3 +275,7 @@
 ;;; Eliminar espacios en blanco al final de la linea automáticamente al guardar el archivo:
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (add-hook 'write-file-hooks 'delete-trailing-whitespace nil t)
+
+;; ido mode
+(ido-mode 1)
+(setq ido-enable-flex-matching t)
