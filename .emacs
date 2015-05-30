@@ -283,3 +283,6 @@
 ;; Powerline
 (require 'powerline)
 (powerline-default-theme)
+
+;; Atajos para moverme entre ventanas con SHIFT
+(windmove-default-keybindings)
