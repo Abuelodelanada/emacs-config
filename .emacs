@@ -100,7 +100,7 @@
 ;; Hooks
 
 (add-hook 'dired-mode-hook (lambda () (dired-omit-mode 1)))
-(add-hook 'emacs-startup-hook (lambda () (if window-system (multi-term))))
+;(add-hook 'emacs-startup-hook (lambda () (if window-system (multi-term))))
 
 ;; Themes
 
@@ -279,3 +279,7 @@
 ;; ido mode
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
+
+;; Powerline
+(require 'powerline)
+(powerline-default-theme)
