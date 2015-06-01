@@ -192,16 +192,23 @@
       (message "Current buffer does not have an associated file."))))
 
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.bmk"))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.bmk")
+ '(ecb-layout-window-sizes
+   (quote
+    (("left6"
+      (ecb-sources-buffer-name 0.22784810126582278 . 0.1875)
+      (ecb-methods-buffer-name 0.22784810126582278 . 0.5833333333333334)
+      (ecb-history-buffer-name 0.22784810126582278 . 0.20833333333333334)))))
+ '(ecb-options-version "2.40"))
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 
@@ -286,3 +293,12 @@
 
 ;; Atajos para moverme entre ventanas con SHIFT
 (windmove-default-keybindings)
+
+;; Emacs code browser
+(require 'ecb)
+(require 'ecb-autoloads)
+
+(global-set-key (kbd "C-c a") 'ecb-activate)
+(global-set-key (kbd "C-c d") 'ecb-deactivate)
+(setq ecb-layout-name "left6")
+(setq ecb-tip-of-the-day nil)
