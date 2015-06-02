@@ -302,3 +302,10 @@
 (global-set-key (kbd "C-c d") 'ecb-deactivate)
 (setq ecb-layout-name "left6")
 (setq ecb-tip-of-the-day nil)
+
+;; Markdown Modes
+(autoload 'markdown-mode "markdown-mode"
+   "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
