@@ -315,3 +315,8 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 (put 'upcase-region 'disabled nil)
+
+
+;; YAML-MODe
+
+(require 'yaml-mode)
