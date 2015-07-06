@@ -339,3 +339,4 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
           (iedit-start (current-word) (point-min) (point-max)))))))
 
 (global-set-key (kbd "C-;") 'iedit-dwim)
+(put 'downcase-region 'disabled nil)
