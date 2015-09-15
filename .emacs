@@ -296,14 +296,24 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
 
 
 (custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(ecb-layout-window-sizes
    (quote
     (("left6"
       (ecb-sources-buffer-name 0.22784810126582278 . 0.1875)
       (ecb-methods-buffer-name 0.22784810126582278 . 0.5833333333333334)
       (ecb-history-buffer-name 0.22784810126582278 . 0.20833333333333334)))))
- '(ecb-options-version "2.40"))
-(custom-set-faces)
+ '(ecb-options-version "2.40")
+ '(php-mode-psr2-hook (quote (ignore))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 
 
 
@@ -340,3 +350,8 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
 
 (global-set-key (kbd "C-;") 'iedit-dwim)
 (put 'downcase-region 'disabled nil)
+
+;(add-hook 'php-mode-hook 'php-enable-psr2-coding-style)
+
+;; Smart Scan lets you jump between symbols in your buffer
+(global-smartscan-mode 1)
