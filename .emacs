@@ -355,3 +355,12 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
 
 ;; Smart Scan lets you jump between symbols in your buffer
 (global-smartscan-mode 1)
+
+
+;; Edit files as root
+;; http://emacsredux.com/blog/2013/04/21/edit-files-as-root/
+(defadvice ido-find-file (after find-file-sudo activate)
+  "Find file as root if necessary."
+  (unless (and buffer-file-name
+               (file-writable-p buffer-file-name))
+    (find-alternate-file (concat "/sudo:root@localhost:" buffer-file-name))))
