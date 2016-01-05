@@ -1,0 +1,342 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jose/trabajos/gca/modules/Campaigns/" . "language/")
+ ("/home/jose/trabajos/gca/custom/modules/Campaigns/" . "language/")
+ ("/etc/polkit-1/" . "localauthority/")
+ ("/home/jose/trabajos/gca/genmodule/" . "lib/")
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/Dashlets/" . "gcoop_ReunionDashlet/")
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/" . "views/")
+ ("/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/" . "metadata/")
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/Dashlets/" . "OportunidadesCanalPrimarioDashlet/")
+ ("/home/jose/trabajos/livehelperchat-master/" . "lhc_web/")
+ ("/home/jose/trabajos/gca/include/CAS/" . "CAS/")
+ ("/home/jose/trabajos/gca/lib/" . "utils/")
+ ("/home/jose/trabajos/gca/docs/" . "source/")
+ ("/home/jose/trabajos/gca/modules/Calendar/" . "tpls/")
+ ("/home/jose/trabajos/gca/jssource/src_files/modules/" . "Calendar/")
+ ("/home/jose/trabajos/gca/jssource/src_files/" . "modules/")
+ ("/home/jose/trabajos/gca/jssource/" . "src_files/")
+ ("/home/jose/trabajos/gca/tools/lib/utils/" . "log/")
+ ("/home/jose/trabajos/gca/tools/lib/" . "utils/")
+ ("/home/jose/trabajos/gca/tools/batch/lib/utils/" . "db/")
+ ("/home/jose/trabajos/gca/tools/batch/lib/" . "utils/")
+ ("/home/jose/trabajos/cloc/" . "includes/")
+ ("/home/jose/trabajos/gca/tools/batch/includes/lib/" . "utils/")
+ ("/home/jose/trabajos/gca/tools/batch/includes/" . "lib/")
+ ("/home/jose/trabajos/gca/tools/batch/" . "lib/")
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/" . "metadata/")
+ ("/home/jose/trabajos/gca/modules/gestiones_calidad/" . "views/")
+ ("/home/jose/trabajos/gca/include/generic/" . "SugarWidgets/")
+ ("/home/jose/trabajos/gca/custom/include/js/" . "SugarWidgets/")
+ ("/home/jose/trabajos/gca/custom/include/generic/" . "SugarWidgets/")
+ ("/home/jose/trabajos/gca/modules/gcoop_ProductosDelSocio/metadata/" . "subpanels/")
+ ("/home/jose/trabajos/gca/modules/gcoop_ProductosDelSocio/" . "metadata/")
+ ("/home/jose/trabajos/gca/custom/include/SugarFields/Fields/" . "Phonegcoop/")
+ ("/home/jose/trabajos/gca/custom/include/Smarty/" . "plugins/")
+ ("/home/jose/trabajos/gca/custom/include/SugarFields/" . "Fields/")
+ ("/home/jose/trabajos/gca/modules/SegurcoopPedidoDeRastreo/" . "views/")
+ ("/etc/apache2/" . "conf-available/")
+ ("/home/jose/trabajos/gca/custom/modules/Contacts/" . "metadata/")
+ ("/home/jose/trabajos/gca/custom/modules/" . "Campaigns/")
+ ("/home/jose/trabajos/gca/tools/" . "batch/")
+ ("/sudo:root@localhost:/etc/" . "default/")
+ ("/home/jose/trabajos/gca/include/MVC/" . "View/")
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/gcoopdatoadicionalseguros/" . "views/")
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/" . "gcoopuser/")
+ ("/home/jose/trabajos/gca/include/SugarObjects/" . "templates/")
+ ("/home/jose/trabajos/gca/include/" . "SugarObjects/")
+ ("/home/jose/trabajos/gca/modules/gcoop_segurcoop_automotor_flota/" . "views/")
+ ("/home/jose/trabajos/gca/modules/gcoop_DetalleCuentaCorriente/" . "views/")
+ ("/home/jose/trabajos/gca/custom/include/MVC/View/" . "views/")
+ ("/home/jose/trabajos/gca/custom/include/MVC/" . "Controller/")
+ ("/home/jose/trabajos/gca/modules/" . "Campaigns/")
+ ("/etc/php5/" . "apache2/")
+ ("/home/jose/trabajos/gca/test/fixtures/config/" . "testing/")
+ ("/home/jose/trabajos/gca/test/fixtures/" . "data/")
+ ("/home/jose/trabajos/gca/test/" . "fixtures/")
+ ("/home/jose/trabajos/gca/custom/include/" . "MVC/")
+ ("/home/jose/trabajos/gca/custom/" . "modules/")
+ ("/home/jose/trabajos/gca/" . "custom/")
+ ("/sudo:root@localhost:/etc/apache2/" . "sites-enabled/")
+ ("/etc/" . "polkit-1/")
+ ("/home/" . "jose/")
+ ("/" . "home/")
+ ("/home/jose/trabajos/" . "gca/")
+ ("/home/jose/" . "trabajos/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/tmp/"
+ "/home/jose/trabajos/gca/db/"
+ "/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/metadata/"
+ "/home/jose/trabajos/gca/modules/Campaigns/language/"
+ "/home/jose/trabajos/gca/custom/modules/Campaigns/language/"
+ "/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/language/"
+ "/home/jose/trabajos/gca/"
+ "/home/jose/trabajos/gca/modules/Campaigns/"
+ "/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/"
+ "/home/jose/trabajos/gca/tools/batch/lib/utils/"
+ "/home/jose/trabajos/gca/tools/batch/"
+ "/home/jose/Escritorio/"
+ "/etc/polkit-1/localauthority/"
+ "/home/jose/trabajos/gca/test/fixtures/data/"
+ "/home/jose/trabajos/gca/genmodule/lib/"
+ "/home/jose/trabajos/gca/genmodule/"
+ "/home/jose/trabajos/gca/genmodule/doc/"
+ "/home/jose/trabajos/gca/include/SugarObjects/templates/gcoopuser/"
+ "/home/jose/trabajos/gca/custom/include/"
+ "/home/jose/trabajos/gca/modules/gcoop_Reunion/views/"
+ "/home/jose/trabajos/gca/modules/gcoop_Reunion/"
+ "/home/jose/trabajos/gca/modules/gcoop_Reunion/metadata/"
+ "/home/jose/trabajos/gca/include/SubPanel/"
+ "/home/jose/trabajos/gca/modules/gcoop_ComercioExterior/"
+ "/home/jose/trabajos/gca/custom/include/MVC/Controller/"
+ "/home/jose/trabajos/gca/custom/include/generic/SugarWidgets/"
+ "/home/jose/trabajos/gca/modules/gcoop_Reunion/Dashlets/gcoop_ReunionDashlet/"
+ "/home/jose/trabajos/gca/modules/gcoop_ProductosDelSocio/metadata/subpanels/"
+ "/home/jose/trabajos/gca/reportes/"
+ "/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/metadata/"
+ "/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/javascript/"
+ "/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/"
+ "/home/jose/trabajos/gca/modules/gcoop_Llamadas/"
+ "/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/Dashlets/OportunidadesCanalPrimarioDashlet/"
+ "/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/views/"
+ "/home/jose/trabajos/gca/modules/SegurcoopGestiones/"
+ "/home/jose/trabajos/livehelperchat-master/lhc_web/"
+ "/home/jose/trabajos/gca/custom/include/helpers/"
+ "/home/jose/trabajos/gca/custom/include/database/"
+ "/home/jose/trabajos/gca/include/CAS/CAS/"
+ "/home/jose/trabajos/gca/include/"
+ "/home/jose/trabajos/gca/tools/lib/utils/log/"
+ "/home/jose/trabajos/gca/tools/"
+ "/home/jose/trabajos/gca/docs/source/"
+ "/home/jose/trabajos/gca/include/SugarObjects/templates/gcoopcall/"
+ "/home/jose/trabajos/gca/custom/modules/Contacts/"
+ "/home/jose/trabajos/gca/modules/Calls/"
+ "/home/jose/trabajos/gca/data/"
+ "/home/jose/trabajos/gca/include/SugarObjects/templates/gcoop/"
+ "/home/jose/trabajos/gca/modules/Calendar/tpls/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "contacts.vcf"
+ "contacts.csv"
+ "0020_actualizamos_end_date_en_oportunidades.sql"
+ "listviewdefs.php"
+ "detailviewdefs.php"
+ "es_ES.lang.php"
+ "0010_modificamos_gcoop_salesopportunity.sql"
+ "0001_cct_5580.sql"
+ "repair.sql"
+ "vardefs.php"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/tmp/" (22155 3980 222507 2000) "contacts.csv" "contacts.vcf" "fecha_vencimiento_listview.png" "fecha_vencimiento_detail.png" "sogo-connector-31.0.2.xpi" "sogo-integrator-31.0.2-sogo-demo.xpi" "jose/" "HJSSAY.tmp" "google.csv" "mozilla_mozillaUser0/" "orbit-jose/" "tmpNS4lSh176939452.cert" "tmp0Vorqq176939452.key" "tmpP7iGXC252326020.cert" "tmpqdQgkY252326020.key" "tmpacFL8M154169720.cert" "tmprsGZCD154169720.key" "tmptpUmbT753088445.cert" "tmptsvCwl753088445.key" "tmpybPXc4271260127.cert" "tmpSYzHz9271260127.key" "tmpe6z3ZY150769082.cert" "tmpOsB5eh150769082.key" "tmpFfEFH6150765172.cert" "tmp93sO9B150765172.key" "qtsingleapplication-59eb-3e8" "qtsingleapplication-59eb-3e8-lockfile" "qipc_sharedmemory_qtsingleapplicationbfde75a5bf91e5179df8ee7ad4556d71fef8ca2ca6aa" "qipc_systemsem_qtsingleapplicationbfde75a5bf91e5179df8ee7ad4556d71fef8ca2ca6aa" "unity_support_test.0" "config-err-o4oaYe" "systemd-private-1750f6bc328c46b88dd54bb4186122b1-rtkit-daemon.service-ZxA5hZ/" ".X0-lock" "systemd-private-1750f6bc328c46b88dd54bb4186122b1-colord.service-Uzc5wt/" "systemd-private-1750f6bc328c46b88dd54bb4186122b1-systemd-timesyncd.service-j8YKvr/" ".Test-unix/" ".font-unix/" ".XIM-unix/" ".ICE-unix/" ".X11-unix/" "../" "./")
+
+ ("/home/jose/" (22154 58793 257226 620000) ".mysql_history" ".zcompdump.zwc" ".zcompdump" ".xsession-errors" ".xsession-errors.old" ".viminfo" ".ipython/" ".nano/" "pass.kdb" ".zhistory" ".php_history" ".dropbox-dist/" ".pip/" ".gimp-2.8/" "Series/" "VirtualBox VMs/" "rs20100724-2.mp3" "rs2.jpg" "reunion" "reportes.rst" "reportes.csv" "recategorizacion_osi.pdf" "recategorizacion_jose.pdf" "r2.jpg" "ppp.pdf" "personal_sept_2013.pdf" "personal_junio_2013.pdf" "personal_agosto_2013.pdf" "permisos.sh" "pepetoon_muy_chica.png" "pepetoon_chica.png" "pepetoon.png" "patterns.json" "openwrt-ramips-rt305x-dir-600-b1-squashfs-sysupgrade.bin" "nota.pdf" "mysql-perfschema-excerpt-5.5-en.pdf" "mozilla.pdf" "monotributo.pdf" "metrogas_diciembre_2011.pdf" "laudcn_2.ttf" "laudatioc_regular.zip" "jose@malbec" "italiano_sept_2013.pdf" "italiano_julio_2013.pdf" "imagine.jpg" "hospital_italiano_junio_2013.pdf" "hasarintranet.xcf" "fuckedtrie.py" "firma_rebeldes.txt" "firma_gcoop.txt" "firma_cafelug.txt" "expensas_septiembre_2013.pdf" "expensas_agosto_2013.pdf" "expensas_abril_2013pdf" "expensas2.png" "expensas1.png" "examples.desktop" "eee-superhe.conf" "edesur_junio_2012.pdf" "dpms-standby.conf" "dodo.jpg" "diccionario.txt" "dead.letter" "credicoop.jpg" "cover.png" "cooperativismo.jpg" "coop.csv" "cave.jpg" "canales-gcoop.conf" "calendarizar_reportes.pdf" "bi.py" "backup.sh" "backup.py.txt" "backup.py" "apache-mysql.sh" "afip.pdf" "acuse_jose.pdf" "XP.xml" "The_Definitive_Guide_to_SugarCRM.pdf" "SugarCRM.pdf" "Release.key" "RS_transparente.png" "Pepe8Bits.png" "Nuevo documento 1.2013_06_30_20_09_55.0.svg" "InconsolataXL.otf" "InconsolataXL-Bold.otf" "INSTRUCTIVO IIBB ASOCIADOS.doc" "GCOOP Caricaturas (chester G) A3_chica.jpg" "GCOOP Caricaturas (chester G) A3.jpg" "Firefox_wallpaper.png" "EXENCIONES ASOCIADOS.doc" "Curriculum_Vitae_Jose_Masson.pdf" "Curriculum_Vitae_Jose_Masson.odt" "Curriculum_Vitae_Jose_Masson.doc" "Claves múltiples.asc" "993.pdf" ".atom/" ".pki/" ".gstreamer-0.10/" "Peliculas/" ".zcompcache/" ".gnome2_private/" ".thumbnails/" ".shutter/" ".gnome2/" ".VirtualBox/" ".gitconfig" ".zshrc_back" ".zcompdump-manolito-5.0.2" ".zlogin" ".zlogout" ".zpreztorc" ".zshenv" ".zprofile" ".zshrc" ".thunderbird/" "MusicaLibre/" "Vídeos/" "viaje/" "VBox/" "UbuntuOne/" "tuneo_escritorio/" "trabajos/" "SugarGCA/" "ssh_backup/" "RS/" "Público/" "Plantillas/" "ownCloud/" "Música/" "kernel/" "Imágenes/" "HD250/" "Fonts/" "fontconfig/" "EscuchaActiva/" "Escritorio_kilombo/" "Escritorio/" "Dropbox/" "Downloads/" "Documentos/" "doc/" "Descargas/" "desarrollo/" "CommandosBehindEnemyLines/" "claves/" "backup_emacs/" "Audiobooks/" "Android/" ".gvfs/" ".dbus/" ".dmrc" ".audacity-data/" ".dropbox/" ".xprofile_back" ".launchpadlib/" ".fonts/" ".gnupg/" ".lesshst" ".macromedia/" ".adobe/" ".tmux.conf" ".virtualenvs/" ".password-store/" ".emacs.d/" ".emacs" "emacs-config/" ".mozilla/" ".zsh_history" ".zsh-update" ".my.cnf" ".zprezto/" ".vim/" ".ssh/" ".purple/" ".ansible/" ".bash_history" ".sudo_as_admin_successful" ".xinputrc" ".gconf/" ".ICEauthority" ".local/" ".config/" ".Xauthority" ".cache/" ".profile" ".bashrc" ".bash_logout" "../" "./")
+
+ ("/home/jose/trabajos/gca/" (22154 58629 197563 744000) "sugarcrm_01_2016.log" "sugarcrm_01_2016_1.log" "db/" "sugarcrm_12_2015_1.log" "sugarcrm_12_2015_2.log" "sugarcrm_12_2015_3.log" "sugarcrm_12_2015_4.log" "sugarcrm_12_2015_5.log" "sugarcrm_12_2015.log" "sugarcrm_12_2015_6.log" "sugarcrm_12_2015_7.log" "sugarcrm_12_2015_8.log" "sugarcrm_12_2015_9.log" "sugarcrm_11_2015.log" "sugarcrm_11_2015_1.log" "sugarcrm_11_2015_2.log" "sugarcrm_11_2015_3.log" "sugarcrm_11_2015_4.log" "sugarcrm_11_2015_5.log" "sugarcrm_11_2015_6.log" "sugarcrm_11_2015_7.log" "sugarcrm_11_2015_8.log" "sugarcrm_11_2015_9.log" "index.php" "sugarcrm.log" "workflow.log" "vcal_server.php" "vCard.php" "sugar_version.php" "sugar_version.json" "soap.php" "run_job.php" "robots.txt" "removeme.php" "phpunitsugar" "pdf.php" "metagen.php" "manifest.php" "maintenance.php" "log_file_restricted.html" "leadCapture.php" "json_server.php" "install.php" "image.php" "ical_server.php" "guion_popup.php" "guion_popup.html" "files.md5" "export.php" "emailmandelivery.php" "download.php" "dodo.py" "dictionary.php" "crossdomain.xml" "cron.php" "config_ws.php" "config_override.php" "config_cas.php" "config_campaign_import.php" "config_call_center.php" "config.php" "campaign_trackerv2.php" "campaign_tracker.php" "acceptDecline.php" "WebToLeadCapture.php" "TreeData.php" "TAGS" "SugarSecurity.php" "README.md" "Makefile" "LICENSE.txt" "LICENSE" "HandleAjaxCall.php" ".gitignore" "upload/" "tools/" "themes/" "tests/" "test/" "sql/" "soap/" "service/" "schemas/" "reportes/" "modules/" "metadata/" "log4php/" "jssource/" "install/" "include/" "genmodule/" "fonts/" "examples/" "docs/" "doc/" "data/" "custom/" "cache/" "Zend/" "XTemplate/" "ModuleInstall/" ".git/" "lib/" "cas.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/db/" (22154 58768 185284 249000) "0010_modificamos_gcoop_salesopportunity.sql" "CAN_BC-54-00_20151125-0623_CAN/" "CAN_BB-54-00_20151028-0003_TRUNK/" "CAN_B9-52-00_20151002-1612_CAN/" "CAN_B8-52-00_20150928-1837_CAN/" "CAN_B7-52-00_20150918-1757_CAN/" "CAN_B6-52-00_20150904-1840_CAN/" "CAN_B5-52-00_20150818-1235_CAN/" "CAN_B4-52-00_20150731-2000_CAN/" "CAN_B3-51-00_20150717-1823_CAN/" "CAN_B1-50-00_20150514-1909_CAN/" "CAN_B0-50-00_20150505-1852_CAN/" "CAN_AF-50-00_20150401-1830_CAN/" "CAN_AE-50-00_20150306-2110_CAN/" "CAN_AD-50-00_20150128-2120_TRUNK/" "CAN_AD-50-00_20150128-2044_TRUNK/" "CAN_AD-50-00_20150128-2041_TRUNK/" "0001_cct_5580.sql" "0000-sql-vacio.sql" "../" "./")
+
+ ("/home/jose/trabajos/gca/test/fixtures/data/" (22102 196 408414 32000) "gcoop_generador_campaign.csv" "campaigns-paquete.csv" "users_test.csv" "users_CCT-3572.csv" "users.csv" "projects.csv" "oportunidades_confirmadas_cdi.csv" "oportunidades-centralizadas.csv" "gcoop_avisos_ventas.csv" "fixture_parametros_importador_de_proyecto.php" "fixture_campania_4.csv" "fixture_campania_3.csv" "fixture_campania_2.csv" "fixture_campania_1.csv" "detalle_gcoop_avisos_ventas.csv" "conversion_desde_hasta.txt" "conversion_descripcion.txt" "campaigns.csv" "campaigns-min.csv" "campaigns-med.csv" "campaigns-max.csv" "campaigns-be-min.csv" "campaign-be_test.csv" "additional_campaigns.csv" "additional_campaigns-min.csv" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/metadata/" (22154 57525 967967 486000) "quickcreatedefs.php" "editviewdefs.php" "detailviewdefs.php" "subpaneldefs.php" "studio.php" "searchdefs.php" "saved_search.php" "popupdefs.php" "metafiles.php" "listviewdefs.php" "dashletviewdefs.php" "canalprimariodashletviewdefs.php" "SearchFields.php" "subpanels/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/language/" (22154 56911 334973 958000) "es_ES.lang.php" "en_us.lang.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/Campaigns/language/" (21951 42668 0 0) "es_ES.lang.php" "en_us.lang.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/modules/Campaigns/language/" (21951 42667 0 0) "es_ES.lang.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/modules/Campaigns/" (22148 17514 911686 536000) "funciones_validacion.php" "controller.php" "Save.php" "wizard.js" "call_center_call_status.php" "WebToLead.js" "TrackDetailView.php" "TrackDetailView.html" "Menu.php" "Helpers.php" "DetailView.js" "Charts.php" "views/" "metadata/" "language/" "javascript/" "Ext/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/modules/" (21951 50779 0 0) "unified_search_modules_display.php" "logic_hooks.php" "zr2_ReportTemplate/" "zr2_ReportParameterLink/" "zr2_ReportParameter/" "zr2_ReportContainer/" "zr2_Report/" "zr2_QueryTemplate/" "Users/" "Trackers/" "Tasks/" "SugarFeed/" "SecurityGroups/" "Schedulers/" "SavedSearch/" "Roles/" "Relationships/" "Prospects/" "ProspectLists/" "ProjectTask/" "Project/" "Opportunities/" "OAuthTokens/" "Notes/" "ModuleBuilder/" "Meetings/" "Leads/" "Import/" "Home/" "History/" "Help/" "Executions/" "Employees/" "Emails/" "EmailTemplates/" "EmailMan/" "EAPM/" "DynamicFields/" "Documents/" "DocumentRevisions/" "Dashboard/" "Contacts/" "Connectors/" "Configurator/" "ChoiceNodes/" "Charts/" "Cases/" "Campaigns/" "CampaignLog/" "Calls/" "Calendar/" "Bugs/" "Administration/" "Activities/" "ActionNodes/" "Accounts/" "ACLRoles/" "ACLActions/" "../" "./")
+
+ ("/home/jose/trabajos/gca/sql/" (22154 54917 775014 571000) "0000-sql-vacio.sql" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/" (22154 56104 636997 795000) "vardefs.php" "gcoop_SalesOpportunity.php" "controller.php" "ProcesadorOportunidades.php" "OpportunityHelpers.php" "Menu.php" "Helper.php" "Forms.php" "views/" "metadata/" "language/" "javascript/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/Campaigns/" (21951 42668 0 0) "wizard.js" "vardefs.php" "utils.php" "image.php" "field_arrays.php" "controller.php" "chart.tpl" "action_file_map.php" "WizardNewsletterSave.php" "WizardNewsletter.php" "WizardNewsletter.html" "WizardMarketingSave.php" "WizardMarketing.php" "WizardMarketing.html" "WizardHome.php" "WizardHome.html" "WizardEmailSetupSave.php" "WizardEmailSetup.php" "WizardEmailSetup.html" "WebToLeadFormSave.php" "WebToLeadForm.html" "WebToLeadDownloadForm.html" "WebToLeadCreation.php" "WebToLeadCreation.html" "WebToLeadCapture.php" "WebToLead.js" "Tracker.php" "TrackDetailView.tpl" "TrackDetailView.php" "Subscriptions.tpl" "Subscriptions.php" "Subscriptions.html" "SubPanelViewer.php" "SearchForm_NewsLetter.html" "Schedule.php" "Schedule.html" "Save.php" "RoiDetailView.tpl" "RoiDetailView.php" "RemoveMe.php" "QueueCampaign.php" "ProspectLink.php" "ProcessBouncedEmails.php" "Popup_picker.php" "Popup_picker.html" "PopupCampaignRoi.php" "PopupCampaignRoi.html" "Menu.php" "MailMerge.php" "GenerateWebToLeadForm.php" "EmailQueue.php" "DetailView.js" "DeleteTestCampaigns.php" "Delete.php" "Charts1.php" "Charts.php" "CaptchaValidate.php" "CampaignDiagnostic.php" "CampaignDiagnostic.html" "Campaign.php" "views/" "tpls/" "metadata/" "language/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/" (22146 60567 212189 609000) "gcoop_ComercioExteriorVigentes/" "gcoop_ComercioExteriorHistorico/" "TableDictionary.php" "BeanDictionary.php" "zr2_ReportTemplate/" "zr2_ReportParameterLink/" "zr2_ReportParameter/" "zr2_ReportContainer/" "zr2_Report/" "zr2_QueryTemplate/" "vCals/" "producto_tarjeta_debito/" "producto_tarjeta_de_depositos/" "producto_tarjeta_credito_visa_business/" "producto_tarjeta_credito_visa/" "producto_tarjeta_credito_cabal_empresa/" "producto_tarjeta_credito_cabal/" "producto_tarjeta_credito_agro_cabal/" "producto_suscripcion_puntos/" "producto_suscripcion_millaje/" "producto_seguro_cajero/" "producto_segmentacion/" "producto_pec/" "producto_limite_pec/" "producto_limite_pda/" "producto_limite_loacc/" "producto_limite_cpd/" "producto_cta_comitente_pesos/" "producto_credito/" "producto_cc_personal/" "producto_caja_ahorro_pesos/" "producto_caja_ahorro_dolares/" "producto_banca_internet_empresaria/" "producto_acuerdo_loacc/" "iCals/" "gestiones_tareas/" "gestiones_calidad/" "gestiones_administrador/" "gcoop_zonas/" "gcoop_telefonos/" "gcoop_sucursales/" "gcoop_seguro_robo_cajero_cct/" "gcoop_segurcoop_robo_cajeros/" "gcoop_segurcoop_otros_riesgos/" "gcoop_segurcoop_integral/" "gcoop_segurcoop_detalle_bienes/" "gcoop_segurcoop_datos_beneficiarios/" "gcoop_segurcoop_combinado_familiar/" "gcoop_segurcoop_colectivo_vida/" "gcoop_segurcoop_cobro_proteg_comb_fliar/" "gcoop_segurcoop_caucion/" "gcoop_segurcoop_automotor_flota/" "gcoop_segurcoop_automotor/" "gcoop_segurcoop/" "gcoop_regiones/" "gcoop_puntos/" "gcoop_notificaciones/" "gcoop_modulos_productos_datos/" "gcoop_modulos_productos/" "gcoop_migraciones/" "gcoop_localizacion/" "gcoop_generador_campaign/" "gcoop_gcoop_SeguroRoboCajero/" "gcoop_gcoop_CabalAdicional/" "gcoop_emails/" "gcoop_domicilios/" "gcoop_credito_aguinaldo/" "gcoop_cc_empresa/" "gcoop_avisos_ventas/" "gcoop_alarmas/" "gcoop_agrupador_modulos/" "gcoop_UltimasCuotasCredito/" "gcoop_SubOpportunity/" "gcoop_SubDetallePoliza/" "gcoop_SoapServices/" "gcoop_SoapFields/" "gcoop_SalesOpportunity/" "gcoop_Reunion/" "gcoop_RemoteServices/" "gcoop_RemoteFields/" "gcoop_RemoteAccounts/" "gcoop_RelacionesFormales/" "gcoop_ProximasCuotasCredito/" "gcoop_Products/" "gcoop_ProductosDelSocio/" "gcoop_PositiveIdentification/" "gcoop_PlazoFijo/" "gcoop_PPA/" "gcoop_OpportunitiesAuthorizations/" "gcoop_Norma/" "gcoop_Nips/" "gcoop_Llamadas/" "gcoop_ListaPlazoFijo/" "gcoop_Invitacion/" "gcoop_GuionCampaigns/" "gcoop_Guion/" "gcoop_FormularioAutenticacion/" "gcoop_DireccionesEntrega/" "gcoop_DetalleVisaCredito/" "gcoop_DetallePolizas/" "gcoop_DetallePlazoFijo/" "gcoop_DetallePlanAhorro/" "gcoop_DetalleCuentaCorriente/" "gcoop_DetalleCuentaComitente/" "gcoop_DetalleCredito/" "gcoop_DetalleCajaAhorro/" "gcoop_DetalleCabalDebito/" "gcoop_DetalleCabalCredito/" "gcoop_CrediCuenta/" "gcoop_Consults/" "gcoop_ComercioExterior/" "gcoop_CombinadoFamiliar/" "gcoop_CallsLog/" "gcoop_Calendario/" "gcoop_Authorizations/" "gcoop_Authentications/" "ZuckerReports/" "Workflows/" "Versions/" "Users/" "UserPreferences/" "UpgradeWizard/" "Trackers/" "Tasks/" "SugarFeed/" "Studio/" "SegurcoopSinRespuestaAsistenciaVehiculo/" "SegurcoopReimpresionSinModificacionDomicilio/" "SegurcoopReclamoRemolque/" "SegurcoopPedidoDeRastreo/" "SegurcoopModificacionDomicilioSinReimpresion/" "SegurcoopModificacionDomicilioConReimpresion/" "SegurcoopInspeccion/" "SegurcoopGestiones/" "SegurcoopEndoso/" "SegurcoopConstanciaPago/" "SegurcoopConstanciaExtensionMercosur/" "SegurcoopConstanciaExtensionConosur/" "SegurcoopConstanciaExtension/" "SegurcoopCambioMedioDePago/" "SegurcoopBaja/" "SegurcoopAltaNoProcesada/" "SegurcoopAdministradorDeGestiones/" "SecurityGroups/" "SchedulersJobs/" "Schedulers/" "SavedSearch/" "Roles/" "Releases/" "Relationships/" "RelacionesInformales/" "Prospects/" "ProspectLists/" "ProjectTask/" "Project/" "OptimisticLock/" "Opportunities/" "OAuthTokens/" "OAuthKeys/" "Notes/" "MySettings/" "ModuleBuilder/" "MergeRecords/" "Meetings/" "MailMerge/" "Leads/" "LabelEditor/" "InboundEmail/" "Import/" "Home/" "History/" "Help/" "Groups/" "Executions/" "Employees/" "Emails/" "EmailText/" "EmailTemplates/" "EmailMarketing/" "EmailMan/" "EmailAddresses/" "EAPM/" "DynamicFields/" "Documents/" "DocumentRevisions/" "Currencies/" "Contacts/" "Connectors/" "Configurator/" "ChoiceNodes/" "Charts/" "Cases/" "Campaigns/" "CampaignTrackers/" "CampaignLog/" "Calls/" "Calendar/" "Bugs/" "Audit/" "Administration/" "Activities/" "ActionNodes/" "Accounts/" "ACLRoles/" "ACLActions/" "ACL/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/batch/custom/" (21951 50779 0 0) "setLlamadaRealizada.ajax.php" "module_link.php" "json_server.php" "index.html" "get_module_link_to_guion_from_campaigns.php" "get_module_link_to_contact.php" "get_module_link.php" "dom_selector.php" "themes/" "modules/" "metadata/" "include/" "data/" "blowfish/" "application/" "ZuckerReports2/" "Extension/" "Charts/" "../" "./")
+
+ ("/home/jose/Escritorio/" (22154 45157 950254 278000) "CuadroMandoCampaña.odt" "GCA_Usuarios_Queries.ods" "usuarios_simultaneos.sql" "CEA.ods" "LT.jpg" "Explicar Diferencias de Costo-Modelo-1.xls" "GCA_Usuarios_Queries.xls" "GCA_usuarios_por_dia.xls" "DetallePF.png" "editorial_28-11-2015.txt" "mejoras.txt" "ultimosMovimientosPP.xls" "trash.desktop" "siniestro_FIT_FFQ-638.pdf" "quinta libertad ULTIMO PGM.mp3" "programa.txt" "mudanza-3.mp4" "mudanza-2-480.mp4" "manual de construccion en tierra - gernot minke.pdf" "mail_radios.txt" "la_casa_del_sol_naciente.txt" "editorial.txt" "desgragacion_casette.mp3" "debe-haber.txt" "debe-haber.rst" "capacitacion_mongo.js" "Manual estufa SARA.pdf" "Introduccion_a_Nodejs_a_traves_de_Koans_ebook.pdf" "CISCO.gwc" "viaje/" "convenios/" "Mongo/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/batch/depuracion/" (22154 46507 728859 464000) "CRSULM10.0130.sql" "CRSULM10.0120.sql" "CRSULM10.0112.sql" "CRSULM10.0111.sql" "CRSULM10.0110.sql" "CRSULM10.0102.sql" "CRSULM10.0101.sql" "CRSULM10.0100.sql" "CRSULM10.0091.sql" "CRSULM10.0090.sql" "CRSULM10.0081.sql" "CRSULM10.0080.sql" "CRSULM10.0071.sql" "CRSULM10.0070.sql" "CRSULM10.0063.sql" "CRSULM10.0062.sql" "CRSULM10.0061.sql" "CRSULM10.0060.sql" "CRSULM10.0053.sql" "CRSULM10.0052.sql" "CRSULM10.0051.sql" "CRSULM10.0050.sql" "CRSULM10.0041.sql" "CRSULM10.0040.sql" "CRSULM10.0032.sql" "CRSULM10.0031.sql" "CRSULM10.0030.sql" "CRSULM10.0022.sql" "CRSULM10.0021.sql" "CRSULM10.0020.sql" "CRSULM10.0010.sql" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/views/" (22045 5581 0 0) "view.quickcreate.php" "view.list.php" "view.edit.php" "view.detail.php" "ListView.tpl" "EditView.tpl" "DetailView.tpl" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/" (22148 17514 911686 536000) "controller.php" "vardefs.php" "gcoop_avisos_ventas.php" "Menu.php" "Forms.php" "views/" "metadata/" "language/" "javascript/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/" (22148 17514 911686 536000) "utils.php" "upload_file.php" "GcoopExceptions.php" "MassPrintView/" "Socks_SoapClient.php" "tabConfig.php" "json_config.php" "globalControlLinks.php" "gcoop_funciones_telefonos.php" "gcoop_campanias_validas.php" "error_template.php" "closepoupcreate.php" "SoapClientAsync.php" "GcoopProjectImporter_by_id.php" "GcoopProjectImporter.php" "GcoopLoggerWS.php" "GcoopLogger.php" "GcoopLocalizacionXmlMaker.php" "GcoopDriverClickToCall.php" "GcoopDigitoVerificador.php" "FieldACLProcessor.php" "AsteriskProxy.php" "ArrayXMLParser.php" "spyc-0.5/" "nusoap/" "language/" "js/" "javascript/" "helpers/" "generic/" "database/" "css/" "bootstrap/" "SugarFields/" "SubPanel/" "Smarty/" "SearchForm/" "Popups/" "MVC/" "ListView/" "EditView/" "DetailView/" "Dashlets/" "../" "./")
+
+ ("/etc/polkit-1/localauthority/" (22055 46416 0 0))
+
+ ("/etc/polkit-1/" (22055 46416 0 0) "nullbackend.conf.d/" "localauthority.conf.d/" "localauthority/" "../" "./")
+
+ ("/etc/" (22148 13489 544250 980000) "mailcap" "ld.so.cache" "shadow" "passwd" "gshadow" "group" "mail/" "spamassassin/" "gssapi_mech.conf" "whoopsie" "gimp/" "chromium-browser/" "ffserver.conf" "purple/" "pear/" "owncloud-client/" "php5/" "sound/" "gnome-vfs-2.0/" "bonobo-activation/" "shells" "mysql/" "apache2/" "zsh/" "fstab" "fstab~" "mc/" "emacs24/" "ImageMagick-6/" "mtab" "vdpau_wrapper.cfg" "timidity/" "openal/" "wildmidi/" "kernel-img.conf" "dkms/" "papersize" "popularity-contest.conf" "subgid" "subgid-" "subuid" "subuid-" "shadow-" "passwd-" "group-" "gshadow-" "localtime" "iftab" "resolv.conf" "zsh_command_not_found" "wodim.conf" "wgetrc" "vtrgb" "usb_modeswitch.conf" "upstart-xsessions" "updatedb.conf" "ucf.conf" "timezone" "sysctl.conf" "sudoers" "signond.conf" "services" "sensors3.conf" "securetty" "rsyslog.conf" "rpc" "rmt" "rc.local" "protocols" "profile" "pnm2ppa.conf" "pam.conf" "os-release" "nsswitch.conf" "networks" "netscsid.conf" "nanorc" "mtools.conf" "modules" "mke2fs.conf" "mime.types" "manpath.config" "mailcap.order" "magic.mime" "magic" "machine-id" "ltrace.conf" "lsb-release" "logrotate.conf" "login.defs" "locale.alias" "lintianrc" "libaudit.conf" "legal" "ld.so.conf" "kerneloops.conf" "issue.net" "issue" "insserv.conf" "inputrc" "hosts.deny" "hosts.allow" "hosts" "hostname" "host.conf" "hdparm.conf" "gai.conf" "fuse.conf" "environment" "drirc" "deluser.conf" "debian_version" "debconf.conf" "crontab" "ca-certificates.conf" "brltty.conf" "brlapi.key" "bindresvport.blacklist" "bash_completion" "bash.bashrc" "apg.conf" "anacrontab" "adduser.conf" ".pwd.lock" "xml/" "xdg/" "wpa_supplicant/" "vim/" "usb_modeswitch.d/" "update-notifier/" "update-motd.d/" "update-manager/" "ufw/" "udisks2/" "udev/" "tmpfiles.d/" "thunderbird/" "thermald/" "terminfo/" "systemd/" "sysctl.d/" "sudoers.d/" "ssl/" "ssh/" "speech-dispatcher/" "skel/" "signon-ui/" "sgml/" "sensors.d/" "selinux/" "security/" "sane.d/" "samba/" "rsyslog.d/" "resolvconf/" "rcS.d/" "rc6.d/" "rc5.d/" "rc4.d/" "rc3.d/" "rc2.d/" "rc1.d/" "rc0.d/" "python3.5/" "python3.4/" "python3/" "python2.7/" "python/" "pulse/" "profile.d/" "ppp/" "polkit-1/" "pm/" "pki/" "perl/" "pcmcia/" "pam.d/" "opt/" "newt/" "network/" "modules-load.d/" "modprobe.d/" "logrotate.d/" "logcheck/" "lightdm/" "libreoffice/" "libpaper.d/" "libnl-3/" "ldap/" "ld.so.conf.d/" "kernel/" "kbd/" "iproute2/" "insserv.conf.d/" "insserv/" "initramfs-tools/" "init.d/" "init/" "ifplugd/" "hp/" "gtk-3.0/" "gtk-2.0/" "gss/" "grub.d/" "groff/" "gnome-app-install/" "gnome/" "ghostscript/" "gdb/" "gconf/" "fonts/" "firefox/" "emacs/" "dpkg/" "doc-base/" "dnsmasq.d/" "dictionaries-common/" "dhcp/" "depmod.d/" "default/" "dconf/" "dbus-1/" "cupshelpers/" "cups/" "cron.weekly/" "cron.monthly/" "cron.hourly/" "cron.daily/" "cron.d/" "cracklib/" "console-setup/" "compizconfig/" "chatscripts/" "calendar/" "ca-certificates/" "brltty/" "bluetooth/" "binfmt.d/" "bash_completion.d/" "avahi/" "at-spi2/" "aptdaemon/" "apt/" "apport/" "apparmor.d/" "apparmor/" "apm/" "alternatives/" "acpi/" "X11/" "UPower/" "NetworkManager/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/" (22148 17531 607435 984000) "utils.pyc" "array_injector.pyc" "gcoop_Bean.php" "config_call_center.php" "config_campaign_import.php" "config_override.php" "config.php" "custom/" "include/" "modules/" "ws_zonas.sh" "ws_zonas.php" "utils.py" "utils.php" "test_entorno.php" "sugarcrm.log" "sqlsoap_server_functions.php" "sqlsoap_server.php" "sqlsoap_config.php" "soap-server.php" "setCallsLog.php" "setCall.php" "setCall.agi" "reportlog.php" "repair_js.php" "repair_database.php" "query_template.sql" "query_generator.py" "python2php.py" "propuesta_permisos.sh" "permisos.sh" "one_to_many.py" "obtener_id_contacto.php" "obtener_fecha_por_idt24.php" "obtenerReclamosGestionesCalidad.php" "nueva_llamada_saliente.php" "nueva_llamada_entrante.php" "motivo_instructivo.yaml" "many_to_many.py" "load_db.php" "libagi.php" "import_custom_fields.php" "getZonas.php" "getSucursales.php" "getRegiones.php" "getIdByFieldValue.php" "getFieldValueJsonList.php" "getFieldValueById.php" "generador_dependencias.py" "gcoop_CallsLog.php" "fix_contact_fields_using_idt24.php" "fix-3311-autorizaciones.php" "fix-1805-autorizaciones.php" "fix-1791-autorizaciones.php" "entrega_paquete.sh" "ent49ent50.sh" "ent46ent50.sh" "dumper.py" "deploy_ssug1003lx.sh" "deploy_gca.sh" "deploy_cct15.sh" "deploy.sh" "debug_module.php" "db_patch.php" "create_calls.php" "crear_workflows.php" "crear_gestiones_administrador.php" "countSalesOpportunityByCampaignType.php" "countSalesOpportunity.php" "copiar_roles.sh" "callsLog.agi" "calidad_workflows.yaml" "calidad_workflows.py" "calidad_tipos_subtipos_motivos_y_productos_al_3-1-13.csv" "calidad_tipos_subtipos_motivos_y_productos_al_05-11_corregido.csv" "calidad_combos.py" "assignSalesOpportunity.php" "array_injector.py" "alarmas.php" "actualizar_llamada.php" "__init__.py" "Tipologia+de+Reclamos+GCA+revisada+para+derivacion.csv" "Tipologia+de+Reclamos+GCA+revisada+para+derivacion+A5460.csv" "Llamada.php" "Campania.php" "Calidad_Tipos_Subtipos_motivos_y_productos_al_20-12.csv" "Calidad+Tipos+Subtipos+motivos+y+productos+a+12-06-13+V2_calidad.csv" "sugartools/" "rel_templates/" "outputs/" "data/" "clients/" "batch/" "lib/" "cache/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/gcoop/" (22146 60567 168183 628000) "GcoopBean.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/modules/Contacts/" (22146 60566 864142 266000) "controller.php" "logic_hooks.php" "action_remap.php" "views/" "tpls/" "metadata/" "language/" "javascript/" "Ext/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/" (22146 60567 180185 259000) "modules_override.php" "MassUpdate.php" "vCard.php" "utils.php" "upload_file.php" "tabs.php" "tabConfig.php" "php-sql-parser.php" "parsecsv.lib.php" "modules.php" "json_config.php" "globalControlLinks.php" "formbase.php" "export_utils.php" "entryPoint.php" "dir_inc.php" "clean.php" "TimeDate.php" "Sugar_Smarty.php" "SugarTinyMCE.php" "SugarSQLValidate.php" "SugarPHPMailer.php" "SugarOauth.php" "SugarOAuthServer.php" "SugarHttpClient.php" "SugarDateTime.php" "QuickSearchDefaults.php" "JSON.php" "ytree/" "utils/" "timezone/" "templates/" "tcpdf/" "resource/" "reCaptcha/" "phpmailer/" "pclzip/" "nusoap/" "language/" "javascript/" "images/" "generic/" "fonts/" "externalAPI/" "database/" "controller/" "contextMenus/" "connectors/" "VarDefHandler/" "TemplateHandler/" "Sugarpdf/" "SugarXHprof/" "SugarTheme/" "SugarQueue/" "SugarObjects/" "SugarLogger/" "SugarHtml/" "SugarFolders/" "SugarFields/" "SugarEmailAddress/" "SugarDependentDropdown/" "SugarCharts/" "SugarCache/" "SubPanel/" "Smarty/" "SearchForm/" "Popups/" "Pear/" "OutboundEmail/" "MySugar/" "MVC/" "Localization/" "ListView/" "HTTP_WebDAV_Server/" "HTMLPurifier/" "GroupedTabs/" "EditView/" "DetailView/" "Dashlets/" "CAS-1.3.3/" "CAS/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/database/" (22146 60566 832137 907000) "MysqliManager.php" "MysqlManager.php" "DBManager.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/helpers/" (22146 60566 848140 87000) "GcoopSegurcoopGestionesHelper.php" "SelectorConversionHelpers.php" "GcoopWorkflowsHelper.php" "GcoopTieneDatosHelper.php" "GcoopTablasCorporativasHelper.php" "GcoopPPAHelper.php" "GcoopDomHelper.php" "GcoopCallHelper.php" "DomSelectorHelper.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/reportes/" (22146 60567 240193 414000) "reporte_oportunidades.sql" "reporte_oportunidades-por-canal-estado-y-zona.sql" "reportes.rst" "reportes.pdf" "reportes.org" "reportes.html" "reporte_tareas-de-promocion.sql" "reporte_seguro-robo-cajero.sql" "reporte_resultado-campania.sql" "reporte_llamadas-por-asunto.sql" "reporte_horarios-de-contacto.sql" "reporte_estado-de-campania-por-barrido.sql" "reporte_estado-de-campania-final.sql" "reporte_contactos_sin_llamadas.sql" "reporte_contactos-con-venta.sql" "reporte_consultas.sql" "reporte_comisiones.sql" "parametro_zonas.sql" "parametro_ultimos_dias.sql" "parametro_respeusta_tarea.sql" "parametro_proyecto.sql" "parametro_promocion.sql" "parametro_product_name.sql" "parametro_operador.sql" "parametro_motivo_oportunidad.sql" "parametro_motivo_llamada.sql" "parametro_hora2.sql" "parametro_hora1.sql" "parametro_gestion_llamada.sql" "parametro_fecha_inicio.sql" "parametro_fecha_fin.sql" "parametro_estado_telefonico.sql" "parametro_estado_tarea.sql" "parametro_estado_oportunidad.sql" "parametro_estado_llamada.sql" "parametro_direccion_llamada.sql" "parametro_consultas_submotivo.sql" "parametro_consultas_motivo.sql" "parametro_consultas_estado.sql" "parametro_canal.sql" "parametro_campaign_id.sql" "parametro_campaign.sql" "parametro_bcc_campaign_type.sql" "parametro_barrido.sql" "parametro_asunto_llamada.sql" "funcion_traducir_tareas_respuesta.sql" "funcion_traducir_estado_telefonico.sql" "funcion_traducir_estado_tareas.sql" "funcion_traducir_estado_oportunidad.sql" "funcion_traducir_estado_llamada.sql" "funcion_traducir_estado_autorizacion.sql" "funcion_traducir_direccion_llamada.sql" "funcion_split_str.sql" "exportar_reportes.sh" "crear_reportes.sh" "config" "borrar_reportes.sql" "borrar_reportes.sh" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_ProductosDelSocio/metadata/subpanels/" (22146 60567 216190 152000) "default.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/generic/SugarWidgets/" (22146 60566 848140 87000) "SugarWidgetSubPanelModalDetailViewLink.php" "SugarWidgetSubPanelModalActions.php" "SugarWidgetSubPanelDetailViewLinkSoap.php" "SugarWidgetSubPanelTopSummaryButton.php" "SugarWidgetSubPanelTopSelectButton.php" "SugarWidgetSubPanelTopScheduleReunionButton.php" "SugarWidgetSubPanelTopScheduleMeetingButton.php" "SugarWidgetSubPanelTopScheduleLlamadaButton.php" "SugarWidgetSubPanelTopScheduleCallButton.php" "SugarWidgetSubPanelTopMessage.php" "SugarWidgetSubPanelTopGcoopScheduleCallButton.php" "SugarWidgetSubPanelTopGcoopHiddenScheduleCallButton.php" "SugarWidgetSubPanelTopCreateTaskButton.php" "SugarWidgetSubPanelTopCreateNoteButton.php" "SugarWidgetSubPanelTopCreateLeadNameButton.php" "SugarWidgetSubPanelTopCreateCampaignLogEntryButton.php" "SugarWidgetSubPanelTopCreateAccountNameButton.php" "SugarWidgetSubPanelTopComposeEmailButton.php" "SugarWidgetSubPanelTopButtonQuickCreate.php" "SugarWidgetSubPanelTopButton.php" "SugarWidgetSubPanelTopArchiveEmailButton.php" "SugarWidgetSubPanelRemoveButtonAccount.php" "SugarWidgetSubPanelRemoveButton.php" "SugarWidgetSubPanelRealizarTareaButton.php" "SugarWidgetSubPanelPopUpSegurcoopButton.php" "SugarWidgetSubPanelPopUpEndosoButton.php" "SugarWidgetSubPanelGuionLink.php" "SugarWidgetSubPanelGcoopVerificarButton.php" "SugarWidgetSubPanelGcoopRemoveInmutableButton.php" "SugarWidgetSubPanelGcoopRemoveButton.php" "SugarWidgetSubPanelGcoopQuickEditButton.php" "SugarWidgetSubPanelGcoopIgnorarButton.php" "SugarWidgetSubPanelGcoopEditButton.php" "SugarWidgetSubPanelGcoopBorrarButton.php" "SugarWidgetSubPanelExternalLink.php" "SugarWidgetSubPanelDetailVigentesViewLink.php" "SugarWidgetSubPanelDetailViewLinkSegurcoopItem.php" "SugarWidgetSubPanelDetailViewLinkSegurcoop.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/MVC/Controller/" (22146 60566 828137 362000) "action_view_map.php" "SugarController.php" "GcoopCuentasRemotasController.php" "entry_point_registry.php" "action_file_map.php" "GcoopProductosController.php" "GcoopLocalizacionController.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_ComercioExterior/" (22146 60567 208189 65000) "controller.php" "vardefs.php" "gcoop_ComercioExterior.php" "Menu.php" "Forms.php" "views/" "metadata/" "language/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/metadata/" (22145 40206 140524 10000) "listviewdefs.php" "dashletviewdefs.php" "subpaneldefs.php" "studio.php" "sidecreateviewdefs.php" "searchdefs.php" "popupdefs.php" "metafiles.php" "editviewdefs.php" "editresultadoviewdefs.php" "editreplanificarviewdefs.php" "detailviewdefs.php" "additionalDetails.php" "SearchFields.php" "subpanels/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/" (22145 40206 188522 802000) "vardefs.php" "gcoop_Reunion.php" "controller.php" "SubPanelViewInvitees.php" "SubPanelViewInvitees.html" "Menu.php" "Helper.php" "Forms.php" "views/" "tpls/" "metadata/" "language/" "javascript/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/genmodule/lib/" (22029 29729 0 0) "reportlog.php" "genmodule.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/genmodule/doc/" (22029 29729 0 0) "readme.rst" "../" "./")
+
+ ("/home/jose/trabajos/gca/genmodule/" (21951 42667 0 0) "genmodule_functions.php" "genmodule.php" "lib/" "gcoop_module__name/" "doc/" "../" "./")
+
+ ("/home/jose/trabajos/gca/test/fixtures/" (22029 29729 0 0) "preferencias_de_usuario.php" "crear_workflows.php" "crear_workflow_basico.php" "crear_lote_de_llamadas_de_ejemplo.php" "cache_ws_rbac.tar.gz" "cache_ws_fixture_1.tar.gz" "cache_ws_casos_CNP.tar.gz" "cache_ws_CNP_1.tar.gz" "cache_ws_CNP.tar" "cache_ws2.tar.gz" "cache_CNP_y_Creditos.tar" "borrar_tablas_asociadas_a_llamadas.php" "db/" "data/" "config/" "../" "./")
+
+ ("/home/jose/trabajos/gca/test/" (22029 29729 0 0) "test_datos.php" "testPopupCreate.php" "test.sh" "plan.de.testing.rst" "obtener_contacto.php" "config_test.ini" "unit/" "splinter/" "sismo/" "shunit/" "selenium/" "reports/" "lime/" "functional/" "fixtures/" "config/" "SugarTests/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/gcoopuser/" (22045 25079 0 0) "vardefs.php" "config.php" "GcoopUser.php" "metadata/" "language/" "icons/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/" (21951 42667 0 0) "sale/" "person/" "issue/" "gcoopuser/" "gcooptask/" "gcoopsavedsearch/" "gcoopsale/" "gcoopproject/" "gcoopproductos/" "gcoopperson/" "gcoopnotes/" "gcooplocalizacion/" "gcoopissue/" "gcoopfile/" "gcoopdatosadicionales/" "gcoopdatoadicionalseguros/" "gcoopdatoadicionalcreditos/" "gcoopcuentasremotas/" "gcoopcontact/" "gcoopcompany/" "gcoopcampaign/" "gcoopcall/" "gcoopbasic/" "gcoopaclrole/" "gcoop/" "file/" "datoadicionalsegurcoop/" "company/" "basic/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SugarObjects/" (21951 42667 0 0) "VardefManager.php" "SugarSession.php" "SugarRegistry.php" "SugarConfig.php" "LanguageManager.php" "templates/" "implements/" "forms/" "../" "./")
+
+ ("/var/" (22089 19526 265584 624000) "www/" "tmp/" "spool/" "run/" "opt/" "metrics/" "mail/" "log/" "lock/" "local/" "lib/" "crash/" "cache/" "backups/" "../" "./")
+
+ ("/var/log/" (22144 16357 777173 659000) "auth.log" "auth.log.1" "kern.log" "kern.log.1" "auth.log.2.gz" "auth.log.3.gz" "auth.log.4.gz" "kern.log.2.gz" "kern.log.3.gz" "kern.log.4.gz" "syslog" "syslog.1" "syslog.2.gz" "syslog.3.gz" "syslog.4.gz" "syslog.5.gz" "syslog.6.gz" "syslog.7.gz" "apport.log" "apport.log.1" "apport.log.2.gz" "apport.log.3.gz" "apport.log.4.gz" "apport.log.5.gz" "apport.log.6.gz" "apport.log.7.gz" "Xorg.0.log" "Xorg.0.log.old" "boot.log" "btmp" "btmp.1" "wtmp" "wtmp.1" "alternatives.log" "alternatives.log.1" "dpkg.log" "dpkg.log.1" "mysql/" "apache2/" "gpu-manager.log" "installer/" "lastlog" "fontconfig.log" "faillog" "dmesg" "bootstrap.log" "upstart/" "unattended-upgrades/" "speech-dispatcher/" "samba/" "lightdm/" "hp/" "fsck/" "dist-upgrade/" "cups/" "apt/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/SearchForm/" (21951 42667 0 0) "SearchForm2.php" "tpls/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/views/" (22029 29729 0 0) "view.list.php" "view.editresultado.php" "view.editreplanificar.php" "view.edit.php" "view.detail.php" "ListView.tpl" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SubPanel/" (21951 42667 0 0) "subpanels.txt" "registered_layout_defs.php" "SugarTab.php" "SubPanelViewer.php" "SubPanelTilesTabs.php" "SubPanelTiles.php" "SubPanelTiles.js" "SubPanelDynamic.html" "SubPanelDefinitions.php" "SubPanel.php" "tpls/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/MVC/View/" (22120 13411 793103 431000) "SugarView.php" "views/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/Dashlets/gcoop_ReunionDashlet/" (22029 29729 0 0) "Mygcoop_ReunionDashlet.php" "Mygcoop_ReunionDashlet.meta.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_Reunion/Dashlets/" (21951 42668 0 0) "gcoop_ReunionDashlet/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/metadata/" (21951 42668 0 0) "studio.php" "sidecreateviewdefs.php" "searchdefs.php" "popupdefs.php" "metafiles.php" "listviewdefs.php" "listararchivosviewdefs.php" "editcargardatosviewdefs.php" "detailviewdefs.php" "dashletviewdefs.php" "SearchFields.php" "subpanels/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_avisos_ventas/javascript/" (22045 3702 0 0) "validation.js" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/MVC/View/views/" (22138 46895 648113 108000) "view.jsonsummary.php" "view.jsonsummary.config.php" "view.jsonlist.php" "view.jsonlist.config.php" "view.json.php" "view.massprint.php" "view.massprint.config.php" "view.list.php" "view.detail.php" "view.xml.php" "view.vcard.php" "view.sugarpdf.php" "view.serialized.php" "view.quickedit.php" "view.quickcreate.php" "view.quick.php" "view.popup.php" "view.noaccess.php" "view.multiedit.php" "view.modulelistmenu.php" "view.metadata.php" "view.importvcardsave.php" "view.importvcard.php" "view.html.php" "view.favorites.php" "view.edit.php" "view.closepopupcreate.php" "view.classic.php" "view.ajaxui.php" "view.ajax.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_Llamadas/" (21951 42668 0 0) "vardefs.php" "gcoop_Llamadas.php" "controller.php" "Menu.php" "Helper.php" "Forms.php" "views/" "metadata/" "language/" "javascript/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/Dashlets/OportunidadesCanalPrimarioDashlet/" (21951 42668 0 0) "OportunidadesCanalPrimarioDashlet.php" "OportunidadesCanalPrimarioDashlet.meta.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_SalesOpportunity/Dashlets/" (21951 42668 0 0) "gcoop_SalesOpportunityDashlet/" "OportunidadesCanalPrimarioDashlet/" "../" "./")
+
+ ("/home/jose/trabajos/livehelperchat-master/lhc_web/" (22136 17614 927201 236000) "chat_faq.html" "chat_box.html" "chat_widget.html" "chat_web.html" "chat.html" "webpack.config.js" "var/" "translations/" "settings/" "pos/" "package.json" "modules/" "lib/" "index.php" "gulpfile.js" "ezcomponents/" "extension/" "doc/" "design/" "cron.php" "cache/" "bower.json" ".gitignore" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/gcoopcontact/" (22120 13411 877086 72000) "GcoopContact.php" "vardefs.php" "config.php" "metadata/" "language/" "icons/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_DetalleCajaAhorro/" (22131 2235 971795 339000) "gcoop_DetalleCajaAhorro.php" "controller.php" "vardefs.php" "Menu.php" "Forms.php" "metadata/" "language/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gestiones_calidad/metadata/" (22120 13411 889083 592000) "searchdefs.php" "massprintviewdefs.php" "SearchFields.php" "subpaneldefs.php" "studio.php" "sidecreateviewdefs.php" "saved_search.php" "quickcreatedefs.php" "popupdefs.php" "metafiles.php" "listviewdefs.php" "editviewdefs.php" "detailviewdefs.php" "dashletviewdefs.php" "subpanels/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/data/" (22131 2235 971795 339000) "GcoopRestFormularioSegurcoop.php" "GcoopSoapCuentasRemotas.php" "GcoopSoapGPAguinaldo.php" "GcoopSoapContactoImportador.php" "GcoopSoapContacto.php" "GcoopSoapComercioExterior.php" "GcoopSoap.php" "GcoopRestMultiLocalizacion.php" "GcoopRestConsultaSegurcoop.php" "GcoopRestBancaInternet.php" "GcoopSoapZonas.php" "GcoopSoapZimbraDatatypes.php" "GcoopSoapZimbraClient.php" "GcoopSoapZimbra.php" "GcoopSoapUltimosMovimientos.php" "GcoopSoapTablasCorporativas.php" "GcoopSoapSugar.php" "GcoopSoapStandardRemoteAccounts.php" "GcoopSoapStandard.php" "GcoopSoapRbac.php" "GcoopSoapProxyFactory.php" "GcoopSoapProxy.php" "GcoopSoapNosis.php" "GcoopSoapLimites.php" "GcoopSoapHabilitarCabal.php" "GcoopSoapFechas.php" "GcoopSoapDisabled.php" "GcoopSoapCuentas.php" "GcoopSoapCreditos.php" "GcoopSoapCNP.php" "GcoopRestResponsableComercial.php" "GcoopRestPuntos.php" "GcoopRestPlazosFijos.php" "GcoopRestMultiLocalizacionAdicional.php" "GcoopRestCuentasComitentes.php" "GcoopRestConsultaPPA.php" "GcoopRestActualizacionDatos.php" "GcoopRest.php" "ConectorFreeBusy.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/modules/Contacts/metadata/" (22131 2235 971795 339000) "subpaneldefs.php" "searchdefs.php" "popupdefs.php" "listviewdefs.php" "detailviewdefs.php" "detailjuridicaviewdefs.php" "detailcomercialviewdefs.php" "SearchFields.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gcoop_DetalleVisaCredito/" (22131 2235 975795 516000) "gcoop_DetalleVisaCredito.php" "vardefs.php" "controller.php" "Menu.php" "Forms.php" "metadata/" "language/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/SegurcoopGestiones/" (21951 42668 0 0) "vardefs.php" "mail_css.php" "controller.php" "SegurcoopGestiones.php" "Menu.php" "Forms.php" "views/" "metadata/" "language/" "javascript/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/livehelperchat-master/" (22135 2561 0 0) "lhc_web/" "composer.json" "README.md" "../" "./")
+
+ ("/home/jose/trabajos/" (22136 3085 206375 827000) "livehelperchat-master/" "livehelperchat-master.zip" "Joomla_1.5.26-Stable-Full_Package.zip" "clocviac_jml1.sql" "cloc/" "multi-ssh-config/" "ssh-config/" "powerdns-ansible/" "sugarcrm_advanced_workflows/" "sugar-gca-original/" "php-rest-api-read-only/" "git-bash-utils/" "gca/" "gacetilla-facttic/" "automatizacion/" "ansible/" "ansible-tuto/" "ansible-raymiiorg/" "ansible-playbook-pve/" "ansible-os-hardening/" "ansible-openvz/" "ansible-monkeysphere/" "ansible-mmoya/" "ansible-graphite/" "ansible-grafana/" "ansible-galeraCaptTofu/" "ansible-galera/" "ansible-galera-ruso/" "SuiteCRM/" "SugarCE-Add-ons/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/CAS/CAS/" (21951 42667 0 0) "TypeMismatchException.php" "ProxyTicketException.php" "ProxyChain.php" "ProxiedService.php" "OutOfSequenceException.php" "OutOfSequenceBeforeProxyException.php" "OutOfSequenceBeforeClientException.php" "OutOfSequenceBeforeAuthenticationCallException.php" "InvalidArgumentException.php" "GracefullTerminationException.php" "Exception.php" "CookieJar.php" "Client.php" "Autoload.php" "AuthenticationException.php" "Request/" "ProxyChain/" "ProxiedService/" "PGTStorage/" "Languages/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/CAS/" (22029 29729 0 0) "README.md" "NOTICE" "LICENSE" "CAS.php" "docs/" "CAS/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/MVC/" (21951 42667 0 0) "View/" "Controller/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/lib/utils/log/" (21951 42668 0 0) "ReportLog.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/lib/utils/" (22120 13411 921076 980000) "CampaniaBancaEmpresa.php" "uuid.php" "TestEntornoBase.php" "TestEntorno.php" "SubOportunidad.php" "OportunidadPaquete.php" "OportunidadBancaEmpresa.php" "OportunidadAdicional.php" "Oportunidad.php" "Duracion.php" "CampaniaPaquete.php" "CampaniaBase.php" "CampaniaAdicional.php" "Campania.php" "CalculadorProgreso.php" "Argumentos.php" "log/" "db/" "../" "./")
+
+ ("/home/jose/trabajos/gca/lib/" (21951 42668 0 0) "validador_oportunidades_paquete.php" "validador_oportunidades_cdi.php" "validador_oportunidades_adicionales.php" "validador_oportunidades.php" "validador_avisos_ventas.php" "validador.php" "utils.php" "gestor_de_unidades_organizacionales.php" "utils/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/gestiones_calidad/views/" (22120 13411 889083 592000) "view.massprint.php" "view.list.php" "view.impresion.php" "view.edit.php" "view.detail.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/docs/source/" (21951 42667 0 0) "wheezy-select.dat" "wheezy-insert.dat" "tests_run.uml" "tests-integracion-continua.rst" "squeeze-query.dat" "squeeze-insert.dat" "sqlsoap_server_test.plt" "sqlsoap_server_test.dat" "sqlsoap_server_refactor-select.plt" "sqlsoap_server_refactor-insert.plt" "sprint_04.rst" "sprint_03.rst" "sprint_02.rst" "sprint_01.rst" "refactorizacion_busquedas_canales_primario_y_secundario.rst" "refactor-sqlsoap_server.rst" "plan-de-testing.rst" "obtener_id_contacto-select.plt" "obtener_id_contacto-select.dat" "obtener_id_contacto-insert.plt" "obtener_id_contacto-insert.dat" "modulo_calidad.rst" "login-cas.uml" "lenny-query.dat" "lenny-prod-query.dat" "lenny-prod-insert.dat" "lenny-insert.dat" "jessie-query.dat" "jessie-insert.dat" "introduccion.rst" "index.rst" "detalle_reportes.rst" "deploy-ssug1003lx.rst" "conf.py" "clicktocall.uml" "campaigns20.rst" "analisis_migracion_sugar.rst" "analisis-performance-vista-360.rst" "analisis-modulos-y-acciones-mas-consultadas.rst" "analisis-login-cas.rst" "analisis-de-tiempos-slow-query-post-deploy-ent_33.rst" "analisis-de-tiempos-slow-query-oportunidades-canal-primario.rst" "analisis-de-tiempos-obtener-id-contacto-desde-asterisk.rst" "analisis-clicktocall.rst" "analisis-asunto-llamadas.rst" "TODO-feature_campanias_2.0.rst" "TODO-feature-crear_campaign_be.rst" "TODO-banca_empresa_cuadro_de_mando.rst" "TODO-arbol-grupos.rst" "Calendarizar_ejecucion_reportes.rst" "images/" "_themes/" "_static/" "../" "./")
+
+ ("/home/jose/trabajos/gca/docs/" (21951 42667 0 0) "Makefile" "source/" "_themes/" "../" "./")
+
+ ("/home/" (22052 46206 0 0) "jose/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/modules/Calls/" (21951 50779 0 0) "controller.php" "views/" "tpls/" "metadata/" "language/" "javascript/" "Ext/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/" (21951 50779 0 0) "setLlamadaRealizada.ajax.php" "module_link.php" "json_server.php" "index.html" "get_module_link_to_guion_from_campaigns.php" "get_module_link_to_contact.php" "get_module_link.php" "dom_selector.php" "themes/" "modules/" "metadata/" "include/" "data/" "blowfish/" "application/" "ZuckerReports2/" "Extension/" "Charts/" "../" "./")
+
+ ("/home/jose/trabajos/gca/data/" (21951 42667 0 0) "Tracker.php" "SugarBean.php" "Link2.php" "Link.php" "BeanFactory.php" "Relationships/" "../" "./")
+
+ ("/home/jose/trabajos/gca/include/SugarObjects/templates/gcoopcall/" (21951 42667 0 0) "vardefs.php" "GcoopCall.php" "language/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/Calls/" (21951 42668 0 0) "vardefs.php" "field_arrays.php" "SubPanelViewInvitees.php" "SubPanelViewInvitees.html" "Menu.php" "CallsQuickCreate.php" "CallHelper.php" "CallFormBase.php" "Call.php" "views/" "tpls/" "metadata/" "language/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/Calendar/tpls/" (21951 42668 0 0) "shared_users.tpl" "settings.tpl" "repeat.tpl" "main.tpl" "header.tpl" "form.tpl" "footer.tpl" "empty.tpl" "editHeader.tpl" "../" "./")
+
+ ("/home/jose/trabajos/gca/jssource/src_files/modules/Calendar/" (21951 42668 0 0) "Cal.js" "../" "./")
+
+ ("/home/jose/trabajos/gca/jssource/src_files/modules/" (21951 42668 0 0) "Users/" "UpgradeWizard/" "Studio/" "Schedulers/" "ProjectTask/" "Project/" "MergeRecords/" "Meetings/" "Leads/" "InboundEmail/" "Home/" "EmailTemplates/" "EAPM/" "Documents/" "Currencies/" "Contacts/" "Connectors/" "Campaigns/" "Calendar/" "Administration/" "Accounts/" "ACLRoles/" "../" "./")
+
+ ("/home/jose/trabajos/gca/jssource/src_files/" (21951 42668 0 0) "themes/" "service/" "modules/" "install/" "include/" "../" "./")
+
+ ("/home/jose/trabajos/gca/jssource/" (21951 42667 0 0) "minify_utils.php" "minify.php" "jsmin.php" "Minifier.php" "JSGroupings.php" "src_files/" "../" "./")
+
+ ("/home/jose/trabajos/gca/modules/Calendar/" (21951 42668 0 0) "index.php" "controller.php" "action_view_map.php" "Menu.php" "CalendarUtils.php" "CalendarSugar.php" "CalendarGrid.php" "CalendarDisplaySugar.php" "CalendarDisplay.php" "CalendarActivitySugar.php" "CalendarActivity.php" "Calendar.php" "Cal.js" "Cal.css" "views/" "tpls/" "language/" "Dashlets/" "../" "./")
+
+ ("/home/jose/trabajos/cloc/includes/" (20337 4844 0 0) "HTML_toolbar.php" "menu.php" "pathway.php" "router.php" "phpmailer/" "gacl.class.php" "domit/" "PEAR/" "gacl_api.class.php" "Archive/" "vcard.class.php" "feedcreator.class.php" "mambo.php" "footer.php" "database.php" "index.html" "database.mysqli.php" "js/" "phpInputFilter/" "mamboxml.php" "pageNavigation.php" "application.php" "joomla.php" "framework.php" "defines.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/custom/include/javascript/" (21951 42667 0 0) "gcoopJsAlerts.php" "../" "./")
+
+ ("/media/datos/trabajos/gca/tools/batch/lib/utils/db/" (21951 42668 0 0) "BaseSugar.php" "BaseDiscador.php" "Base.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/lib/utils/db/" (21951 42668 0 0) "BaseSugar.php" "BaseDiscador.php" "Base.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/lib/utils/" (22120 13411 921076 980000) "CampaniaBancaEmpresa.php" "uuid.php" "TestEntornoBase.php" "TestEntorno.php" "SubOportunidad.php" "OportunidadPaquete.php" "OportunidadBancaEmpresa.php" "OportunidadAdicional.php" "Oportunidad.php" "Duracion.php" "CampaniaPaquete.php" "CampaniaBase.php" "CampaniaAdicional.php" "Campania.php" "CalculadorProgreso.php" "Argumentos.php" "log/" "db/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/lib/" (21951 42668 0 0) "validador_oportunidades_paquete.php" "validador_oportunidades_cdi.php" "validador_oportunidades_adicionales.php" "validador_oportunidades.php" "validador_avisos_ventas.php" "validador.php" "utils.php" "gestor_de_unidades_organizacionales.php" "utils/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/batch/lib/utils/db/" (21951 42668 0 0) "BaseSugar.php" "BaseDiscador.php" "Base.php" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/batch/lib/utils/" (22120 13411 921076 980000) "CampaniaBancaEmpresa.php" "uuid.php" "TestEntornoBase.php" "TestEntorno.php" "SubOportunidad.php" "OportunidadPaquete.php" "OportunidadBancaEmpresa.php" "OportunidadAdicional.php" "Oportunidad.php" "Duracion.php" "CampaniaPaquete.php" "CampaniaBase.php" "CampaniaAdicional.php" "Campania.php" "CalculadorProgreso.php" "Argumentos.php" "log/" "db/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/batch/lib/" (21951 42668 0 0) "validador_oportunidades_paquete.php" "validador_oportunidades_cdi.php" "validador_oportunidades_adicionales.php" "validador_oportunidades.php" "validador_avisos_ventas.php" "validador.php" "utils.php" "gestor_de_unidades_organizacionales.php" "utils/" "../" "./")
+
+ ("/home/jose/trabajos/gca/tools/batch/" (22120 24935 289033 721000) "exportador_oportunidades_paquete.php" "alertador_creditos_aguinaldo_ganados.php" "importador_oportunidades_paquete.sql" "importador_oportunidades_paquete.error" "includes/" "config_call_center.php" "config_campaign_import.php" "config_override.php" "config.php" "custom/" "include/" "modules/" "user_preferences_dashboard.php" "user_preferences.php" "sugarcrm_1.log" "sugarcrm.log" "set_user_preferences.php" "sales_exporter_adicionales.php" "sales_exporter.php" "sales_export_by_id_adicionales.php" "sales_export_by_id.php" "repair_roles.php" "rebuild_relationships.php" "rebuild_extensions.php" "project_import_by_id.php" "project_import.php" "preferences.php" "new_sales_exporter_ppa.php" "new_sales_exporter_adicionales.php" "new_sales_exporter.php" "importador_oportunidades_paquete.php" "importador_oportunidades_paquete.log" "importador_oportunidades_banca_empresa.php" "importador_oportunidades_adicionales.php" "importador_oportunidades.php" "importador_de_grupos.php" "importador_conversion_productos.sql" "importador_conversion_productos.php" "importador_conversion_productos.log" "importador_cdi.php" "importador_avisos_ventas.php" "importador.php" "import_zonas.php" "import_zonas.log" "import_users_row_banca_empresa.php" "import_users_row.php" "import_users_info_debug.log" "import_users_functions.php" "import_users_debug.log" "import_users_banca_empresa.php" "import_users.php" "import_role_actions.php" "import_grupos.php" "exportador_oportunidades_segurcoop.php" "exportador_oportunidades_paquete.sql" "exportador_oportunidades_paquete.log" "exportador_cdi.php" "exportador_calidad_de_datos_functions.php" "exportador_calidad_de_datos.php" "end_date_exporter.php" "batch-cuadro-mando.php" "alertador_vencimiento_gestiones_calidad.php" "user_preferences/" "tests/" "lib/" "depuracion/" "cache/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
