@@ -283,7 +283,12 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
 (powerline-default-theme)
 
 ;; Atajos para moverme entre ventanas con SHIFT
-(windmove-default-keybindings)
+;(windmove-default-keybindings)
+
+(global-set-key (kbd "C-<left>")  'windmove-left)
+(global-set-key (kbd "C-<right>") 'windmove-right)
+(global-set-key (kbd "C-<up>")    'windmove-up)
+(global-set-key (kbd "C-<down>")  'windmove-down)
 
 ;; Emacs code browser
 (require 'ecb)
